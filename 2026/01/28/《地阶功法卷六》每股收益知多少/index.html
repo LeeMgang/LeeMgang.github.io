@@ -1,126 +1,251 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  
-  
-  <title>《地阶功法卷六》每股收益知多少 | 每天进步一点点</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="本文来源于知乎，作者：MR Dang​  今天谈一个非常重要，非常基础，做投资必须学会的概念，也就是每股收益的计算。 在任何财经类的考试中，每股收益都是必学必考的内容。 我的读者里有很多基础非常过硬的投资者，CPA也不在少数，粗略看了下应该有上千了。 但是也有很多小白，或者新手投资者。 同时我自己对每股收益也有一些不太成熟的看法。 所以今天的文章就深入浅出的说一下每股收益的计算逻辑。  基础概念">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"leemgang.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="本文来源于知乎，作者：MR Dang​ 今天谈一个非常重要，非常基础，做投资必须学会的概念，也就是每股收益的计算。  在任何财经类的考试中，每股收益都是必学必考的内容。 我的读者里有很多基础非常过硬的投资者，CPA也不在少数，粗略看了下应该有上千了。 但是也有很多小白，或者新手投资者。 同时我自己对每股收益也有一些不太成熟的看法。 所以今天的文章就深入浅出的说一下每股收益的计算逻">
 <meta property="og:type" content="article">
 <meta property="og:title" content="《地阶功法卷六》每股收益知多少">
 <meta property="og:url" content="https://leemgang.github.io/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E5%85%AD%E3%80%8B%E6%AF%8F%E8%82%A1%E6%94%B6%E7%9B%8A%E7%9F%A5%E5%A4%9A%E5%B0%91/index.html">
 <meta property="og:site_name" content="每天进步一点点">
-<meta property="og:description" content="本文来源于知乎，作者：MR Dang​  今天谈一个非常重要，非常基础，做投资必须学会的概念，也就是每股收益的计算。 在任何财经类的考试中，每股收益都是必学必考的内容。 我的读者里有很多基础非常过硬的投资者，CPA也不在少数，粗略看了下应该有上千了。 但是也有很多小白，或者新手投资者。 同时我自己对每股收益也有一些不太成熟的看法。 所以今天的文章就深入浅出的说一下每股收益的计算逻辑。  基础概念">
+<meta property="og:description" content="本文来源于知乎，作者：MR Dang​ 今天谈一个非常重要，非常基础，做投资必须学会的概念，也就是每股收益的计算。  在任何财经类的考试中，每股收益都是必学必考的内容。 我的读者里有很多基础非常过硬的投资者，CPA也不在少数，粗略看了下应该有上千了。 但是也有很多小白，或者新手投资者。 同时我自己对每股收益也有一些不太成熟的看法。 所以今天的文章就深入浅出的说一下每股收益的计算逻">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://picx.zhimg.com/v2-739345ac47d5d52b2b2fea31b8f5e433.jpg">
-<meta property="og:image" content="https://pic3.zhimg.com/v2-e88844efde1b6d6011604dd096147408.jpg">
-<meta property="og:image" content="https://pic4.zhimg.com/v2-c8d243925ae1d59976e022c1bd600633.jpg">
-<meta property="og:image" content="https://pic3.zhimg.com/v2-e9b10a7e60ce0ba7f17d02adcb0a0bda.jpg">
 <meta property="article:published_time" content="2026-01-28T05:25:01.434Z">
 <meta property="article:modified_time" content="2026-01-28T06:04:06.340Z">
 <meta property="article:author" content="LeeMgang">
 <meta property="article:tag" content="MR Dang​">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://picx.zhimg.com/v2-739345ac47d5d52b2b2fea31b8f5e433.jpg">
+
+
+<link rel="canonical" href="https://leemgang.github.io/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E5%85%AD%E3%80%8B%E6%AF%8F%E8%82%A1%E6%94%B6%E7%9B%8A%E7%9F%A5%E5%A4%9A%E5%B0%91/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://leemgang.github.io/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E5%85%AD%E3%80%8B%E6%AF%8F%E8%82%A1%E6%94%B6%E7%9B%8A%E7%9F%A5%E5%A4%9A%E5%B0%91/","path":"2026/01/28/《地阶功法卷六》每股收益知多少/","title":"《地阶功法卷六》每股收益知多少"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>《地阶功法卷六》每股收益知多少 | 每天进步一点点</title>
   
-    <link rel="alternate" href="/atom.xml" title="每天进步一点点" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+
+
+
 
   
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
 
   
+
+
+
+
+
+
   
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
 
-<meta name="generator" content="Hexo 8.1.1"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">每天进步一点点</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">坚持写作，热爱生活</a>
-        </h2>
-      
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js" defer></script>
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">每天进步一点点</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">坚持写作，热爱生活</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</header>
         
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS 订阅"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="搜索"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://leemgang.github.io"></form>
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">LeeMgang</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">32</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
       </div>
     </div>
-  </div>
-</header>
 
-      <div class="outer">
-        <section id="main"><article id="post-《地阶功法卷六》每股收益知多少" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E5%85%AD%E3%80%8B%E6%AF%8F%E8%82%A1%E6%94%B6%E7%9B%8A%E7%9F%A5%E5%A4%9A%E5%B0%91/" class="article-date">
-  <time class="dt-published" datetime="2026-01-28T05:25:01.434Z" itemprop="datePublished">2026-01-28</time>
-</a>
     
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E7%9F%A5%E4%B9%8E%E6%94%B6%E8%97%8F/">知乎收藏</a>
-  </div>
+  </aside>
 
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="p-name article-title" itemprop="headline name">
-      《地阶功法卷六》每股收益知多少
-    </h1>
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
   
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://leemgang.github.io/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E5%85%AD%E3%80%8B%E6%AF%8F%E8%82%A1%E6%94%B6%E7%9B%8A%E7%9F%A5%E5%A4%9A%E5%B0%91/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="LeeMgang">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每天进步一点点">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="《地阶功法卷六》每股收益知多少 | 每天进步一点点">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          《地阶功法卷六》每股收益知多少
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-        <blockquote>
-<p>本文来源于知乎，作者：<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/people/MR%20Dang%E2%80%8B">MR Dang​</a></p>
+
+      <time title="创建时间：2026-01-28 13:25:01 / 修改时间：14:04:06" itemprop="dateCreated datePublished" datetime="2026-01-28T13:25:01+08:00">2026-01-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%9F%A5%E4%B9%8E%E6%94%B6%E8%97%8F/" itemprop="url" rel="index"><span itemprop="name">知乎收藏</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p>本文来源于知乎，作者：<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/people/MR%20Dang%E2%80%8B">MR Dang​</a></p>
+<p>今天谈一个非常重要，非常基础，做投资必须学会的概念，也就是<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&amp;content_type=Article&amp;match_order=1&amp;q=%E6%AF%8F%E8%82%A1%E6%94%B6%E7%9B%8A&amp;zhida_source=entity">每股收益</a>的计算。</p>
 </blockquote>
-<p>今天谈一个非常重要，非常基础，做投资必须学会的概念，也就是<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&content_type=Article&match_order=1&q=%E6%AF%8F%E8%82%A1%E6%94%B6%E7%9B%8A&zhida_source=entity">每股收益</a>的计算。</p>
 <p>在任何财经类的考试中，每股收益都是必学必考的内容。</p>
-<p>我的读者里有很多基础非常过硬的投资者，<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&content_type=Article&match_order=1&q=CPA&zhida_source=entity">CPA</a>也不在少数，粗略看了下应该有上千了。</p>
+<p>我的读者里有很多基础非常过硬的投资者，<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&amp;content_type=Article&amp;match_order=1&amp;q=CPA&amp;zhida_source=entity">CPA</a>也不在少数，粗略看了下应该有上千了。</p>
 <p>但是也有很多小白，或者新手投资者。</p>
 <p>同时我自己对每股收益也有一些不太成熟的看法。</p>
 <p>所以今天的文章就深入浅出的说一下每股收益的计算逻辑。</p>
-<hr>
+<hr />
 <p><strong>基础概念：</strong></p>
-<p><strong>1.<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&content_type=Article&match_order=1&q=%E5%BD%92%E6%AF%8D%E5%87%80%E5%88%A9%E6%B6%A6&zhida_source=entity">归母净利润</a></strong></p>
+<p><strong>1.<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&amp;content_type=Article&amp;match_order=1&amp;q=%E5%BD%92%E6%AF%8D%E5%87%80%E5%88%A9%E6%B6%A6&amp;zhida_source=entity">归母净利润</a></strong></p>
 <p>净利润咱们经常说，这个好理解。</p>
 <p>你开了个超市，年收入100万，扣去进货房租水电人工折旧的成本80万，最后把税一交，净落了15万，这15万就是净利润。</p>
 <p>那么归母什么意思呢？</p>
@@ -128,9 +253,10 @@
 <p>你可以理解成”我“</p>
 <p>也就是归属于”我“的净利润。</p>
 <p>在上面这个例子里，你的超市一开始的时候不是自己一个人开的，你二舅还入了10%的股份，大舅也入了10%的股份。</p>
-<p>你其实只有80%的股份，所以最后那个15万，只能拿走15*0.8&#x3D;12万，剩下的三万要分给大舅和二舅。</p>
+<p>你其实只有80%的股份，所以最后那个15万，只能拿走15*0.8=12万，剩下的三万要分给大舅和二舅。</p>
 <p>这个12万就是所谓的归母净利润。</p>
-<p><strong>2.<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&content_type=Article&match_order=1&q=%E6%B5%81%E9%80%9A%E5%9C%A8%E5%A4%96&zhida_source=entity">流通在外</a>：</strong></p>
+<p><strong>2.<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&amp;content_type=Article&amp;match_order=1&amp;q=%E6%B5%81%E9%80%9A%E5%9C%A8%E5%A4%96&amp;zhida_source=entity">流通在外</a>：</strong></p>
 <p>流通在外什么意思呢？</p>
 <p>假设你的超市上市了，上市前100股，你有80股，大舅二舅一共20股。</p>
 <p>IPO又发了60股给韭菜。</p>
@@ -139,80 +265,104 @@
 <p>你们一合计，这不行啊，开个股东大会。</p>
 <p>发了个公告，说公司要回购股票了，一共回购10股。</p>
 <p>这10股先放在公司账上，以后用来奖励店长和收银员。</p>
-<p>这个时候，流通在外的股票就只有160-10&#x3D;150股了。</p>
+<p>这个时候，流通在外的股票就只有160-10=150股了。</p>
 <p>所谓的内外，指的是在不在<strong>上市公司账本</strong>上。</p>
-<p>在公司账上的叫<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&content_type=Article&match_order=1&q=%E5%BA%93%E5%AD%98%E8%82%A1&zhida_source=entity">库存股</a>，一般是限制性股份什么的。</p>
+<p>在公司账上的叫<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&amp;content_type=Article&amp;match_order=1&amp;q=%E5%BA%93%E5%AD%98%E8%82%A1&amp;zhida_source=entity">库存股</a>，一般是限制性股份什么的。</p>
 <p>不在公司账上，可以在资本市场交易的，叫<strong>流通在外</strong>。</p>
 <p><strong>流通在外的概念不等于流通股本。</strong></p>
 <p><strong>(这里比较绕，要多看看)</strong></p>
 <p>比如你的80股由于减持规定，上市以后不能立即交易，<strong>不是流通股</strong>。</p>
 <p>但是<strong>属于流通在外</strong>的范畴，因为它是在大股东账上，而不是在上市公司账上。</p>
 <p>判断是否流通在外的黄金标准就是股票持有人是否是上市公司本身。</p>
-<p><strong>3.<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&content_type=Article&match_order=1&q=%E6%99%AE%E9%80%9A%E8%82%A1&zhida_source=entity">普通股</a></strong></p>
+<p><strong>3.<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&amp;content_type=Article&amp;match_order=1&amp;q=%E6%99%AE%E9%80%9A%E8%82%A1&amp;zhida_source=entity">普通股</a></strong></p>
 <p>普通股就是普通投资者拿的股票，咱们讨论的大部分股票都是普通股。</p>
-<p>与普通股相对应的概念叫<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&content_type=Article&match_order=1&q=%E4%BC%98%E5%85%88%E8%82%A1&zhida_source=entity">优先股</a>，一般是银行或者一些大型的企业发行的类似于债券的一类东西。</p>
+<p>与普通股相对应的概念叫<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&amp;content_type=Article&amp;match_order=1&amp;q=%E4%BC%98%E5%85%88%E8%82%A1&amp;zhida_source=entity">优先股</a>，一般是银行或者一些大型的企业发行的类似于债券的一类东西。</p>
 <p>优先股一般不在A股交易，优先股的股东对一般的经营事务没有什么参与权，但是优先股股东可以收取优先股股息。</p>
 <p>所谓的优先，意思就是超市破产了，货架和别的盆盆罐罐卖了5万块，这5万块要先赔给债权人，然后是优先股股东，剩下的才能轮到其他普通投资者去瓜分。</p>
 <p><strong>4.加权平均股数</strong></p>
 <p>按照时间加权计算一年之间平均的股数。</p>
 <p>什么意思呢？</p>
 <p>比如你年初的时候总股本是100股，7月份的时候IPO了，总股本变成160股了。</p>
-<p>那么这一年的加权平均股数就是（100*6*+160**6)&#x2F;12&#x3D;130股</p>
+<p>那么这一年的加权平均股数就是（100*6<em>+160</em>*6)/12=130股</p>
 <p>（6个月100股，6个月160股）</p>
-<p>如果是10月才IPO，那加权平均股数&#x3D;（100*9*+160**3)&#x2F;12&#x3D;115股</p>
+<p>如果是10月才IPO，那加权平均股数=（100*9<em>+160</em>*3)/12=115股</p>
 <p>（9个月100股，3个月160股）</p>
-<hr>
+<hr />
 <p>基础概念学完了，咱们来学每股收益。</p>
 <p>每股收益一般就是投资者俗称的<strong>业绩。</strong></p>
-<p><strong>这个业绩大约等于净利润&#x2F;总股本</strong></p>
+<p><strong>这个业绩大约等于净利润/总股本</strong></p>
 <p>你平时用这个来做决策，问题不大。</p>
 <p>但是有些投资者用这个测算以后，发现和财报上的不一样。</p>
 <p>那我们就需要更精确的计算。</p>
 <p>每股收益分两种，一种叫<strong>基本</strong>每股收益，一种叫<strong>摊薄</strong>每股收益。</p>
 <p>投资者一般看重的是前者，后者是考虑可转债或者其他潜在的股本后的每股收益。</p>
 <p>所以这篇文章只讲基本每股收益，摊搏每股收益有兴趣的可以自学哈，原理大差不差的。</p>
-<p><strong>基本每股收益&#x3D;（归母净利润-优先股股息-<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&content_type=Article&match_order=1&q=%E6%B0%B8%E7%BB%AD%E5%80%BA&zhida_source=entity">永续债</a>利息)&#x2F;流通在外普通股加权平均股数</strong></p>
+<p><strong>基本每股收益=（归母净利润-优先股股息-<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=266735511&amp;content_type=Article&amp;match_order=1&amp;q=%E6%B0%B8%E7%BB%AD%E5%80%BA&amp;zhida_source=entity">永续债</a>利息)/流通在外普通股加权平均股数</strong></p>
 <p>和上面那个简陋的公式对比，会发现差距主要在以下几点</p>
 <p>1.分母上，有一个流通在外的修饰词，如果一家公司有<strong>回购</strong>或者其他库存股，会导致流通在外的股数变少，也就是分母变小，从而使得真实的基本每股收益比粗略计算的更<strong>大</strong>。</p>
 <p>2.分母上，还有一个加权平均的的修饰词，如果一家公司在一年中发生<strong>债转股，增发</strong>，或者其他股本变动，则会导致加权平均股数＜期末总股本。</p>
-<p>很多人都是用净利润&#x2F;期末总股本，从而使得真实的基本每股收益比粗略计算的更<strong>大。</strong></p>
+<p>很多人都是用净利润/期末总股本，从而使得真实的基本每股收益比粗略计算的更<strong>大。</strong></p>
 <p>3.分子上，要减去永续债或者优先股的影响，从而使得真实的基本每股收益比粗略计算的更<strong>小</strong>。</p>
-<hr>
+<hr />
 <p>说了这么多了，可能还是云里雾里的，咱们实战一下吧：</p>
-<p><img src="https://picx.zhimg.com/v2-739345ac47d5d52b2b2fea31b8f5e433.jpg" alt="图片"></p>
+<figure>
+<img
+src="https://picx.zhimg.com/v2-739345ac47d5d52b2b2fea31b8f5e433.jpg"
+alt="图片" />
+<figcaption aria-hidden="true">图片</figcaption>
+</figure>
 <p>HXYH三季报</p>
 <p>HXYH三季报如图，总股本是159.1亿股。</p>
-<p>如果按照一般的粗略计算，则每股收益&#x3D;179.82&#x2F;159.1&#x3D;1.13元&#x2F;股</p>
+<p>如果按照一般的粗略计算，则每股收益=179.82/159.1=1.13元/股</p>
 <p>实际上的基本每股收益是1.04元，比粗略计算的要<strong>小</strong>。</p>
 <p>根据我们上文的推理，则考虑是优先股或者永续债影响。</p>
 <p>第一步：</p>
 <p>分子的处理，先找到半年报：</p>
-<p><img src="https://pic3.zhimg.com/v2-e88844efde1b6d6011604dd096147408.jpg" alt="图片"></p>
+<figure>
+<img
+src="https://pic3.zhimg.com/v2-e88844efde1b6d6011604dd096147408.jpg"
+alt="图片" />
+<figcaption aria-hidden="true">图片</figcaption>
+</figure>
 <p>半年报</p>
-<p>半年报中表示永续债利息9.84亿，那推算三季报的永续债利息大约为9.84&#x2F;2*3&#x3D;14.76亿</p>
-<p>则基本每股收益的分子为179.82-14.76&#x3D;165.06</p>
+<p>半年报中表示永续债利息9.84亿，那推算三季报的永续债利息大约为9.84/2*3=14.76亿</p>
+<p>则基本每股收益的分子为179.82-14.76=165.06</p>
 <p>第二步：</p>
 <p>分母的处理：</p>
-<p><img src="https://pic4.zhimg.com/v2-c8d243925ae1d59976e022c1bd600633.jpg" alt="图片"></p>
+<figure>
+<img
+src="https://pic4.zhimg.com/v2-c8d243925ae1d59976e022c1bd600633.jpg"
+alt="图片" />
+<figcaption aria-hidden="true">图片</figcaption>
+</figure>
 <p>资产负债表</p>
 <p>看了下股本，期间没有变动。</p>
 <p>同时没有库存股等特殊事件，因此，就以159.15进行计算就行了。</p>
-<p>则基本每股收益&#x3D;165.06&#x2F;159.15&#x3D;1.04元&#x2F;每股</p>
-<hr>
+<p>则基本每股收益=165.06/159.15=1.04元/每股</p>
+<hr />
 <p>看到这里，恭喜你解锁了CPA考试里最难科目财务成本管理的必考内容。</p>
 <p>看的有点晕晕乎乎的？</p>
 <p>没关系，不重要，<strong>只要会看每股收益就行了</strong>，公司都给你算好了。</p>
 <p>但是以我多年闯荡各种论坛的经验，每次在财报季都会有资深的投资者跳出来指责上市公司计算的每股收益有错误。</p>
 <p>因为每股收益是一个原理看起来简单，但是实际算准并不容易的数据。</p>
 <p>我们并不需要学会具体的计算过程，但是要可以反推出每股收益和粗略计算之间差距的原因。</p>
-<hr>
+<hr />
 <p>以上内容属于<strong>基础内容</strong>，下面开始拓展一下：</p>
 <p><strong>1.归母净利润和少数股东损益。</strong></p>
 <p>这是个很有趣的点，就像我们开超市，占股80%，大舅10%，二舅10%，最后应该一荣俱荣，一损俱损。</p>
 <p>但是有的公司，特别是房企之类的非常<strong>缺钱</strong>的企业，你去观察的它的财务报表，会发现少数股东的利润特别稳。</p>
 <p>超市赚钱的时候，大舅和二舅也赚钱很好理解。</p>
 <p>但是超市明明都要破产了，大舅和二舅还在赚钱，是不是有点匪夷所思？</p>
-<p><img src="https://pic3.zhimg.com/v2-e9b10a7e60ce0ba7f17d02adcb0a0bda.jpg" alt="图片"></p>
+<figure>
+<img
+src="https://pic3.zhimg.com/v2-e9b10a7e60ce0ba7f17d02adcb0a0bda.jpg"
+alt="图片" />
+<figcaption aria-hidden="true">图片</figcaption>
+</figure>
 <p>某房企财报</p>
 <p>比如某龙头的报表，上市公司赔了这么多，少数股东还在挣钱。</p>
 <p>（热知识，括号里的数字代表负数）</p>
@@ -237,173 +387,91 @@
 <p>可是通过上文的计算公式可以得知，即使是用作股权激励，只要当期作为库存股列报在资产负债表，也会提高每股收益，因为库存股就不属于流通在外了。</p>
 <p>但是这种影响是暂时的，当授予员工后，库存股重新流通在外时，这种影响就会消失。</p>
 <p>同时股权激励会在当期就扣除费用，降低分子，总的对每股收益的影响需要另行计算。</p>
-<hr>
+<hr />
 <p>最后留一个思考题吧，hxyh2024年归母净利润增加了4%，但是每股收益增加了9%，二者并不同步。</p>
 <p>这是什么原因造成的呢？</p>
-<hr>
+<hr />
 <p>很多人问的比较多的btgf，90万吨开采批下来了，按照这个时间，如果没有提前开采的话，可能今年完成任务有点悬。</p>
 <p>但总归是好事，现在这个价格距离我第一次推荐的价格比较近了，锚定股息率的话就还不错。</p>
 <p>如果这周有合适的价格我也会考虑重新上车的，目前确实空仓仓位有点大。</p>
 <p>不建议模仿，<strong>鄙人不善择时</strong>。</p>
 <p>如果涨的多了我不会追。</p>
-<hr>
+<hr />
 <p>还有没有什么要叮嘱的？</p>
 <p>有的，兄弟，有的。</p>
 <p><strong>别忘了申购今天的摩尔线程。</strong></p>
-<hr>
+<hr />
 <p>一个喜欢保护韭菜的博主，希望大家少少踩坑，多多赚钱！</p>
 
-      
     </div>
-    <footer class="article-footer">
-      <a data-url="https://leemgang.github.io/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E5%85%AD%E3%80%8B%E6%AF%8F%E8%82%A1%E6%94%B6%E7%9B%8A%E7%9F%A5%E5%A4%9A%E5%B0%91/" data-id="cuidNBclOFrY6cK2_4kD0lrGM" data-title="《地阶功法卷六》每股收益知多少" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MR-Dang%E2%80%8B/" rel="tag">MR Dang​</a></li></ul>
 
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/MR-Dang%E2%80%8B/" rel="tag"># MR Dang​</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%B8%80%E3%80%8B%E6%8A%95%E8%B5%84%E8%80%85%E5%BF%85%E9%A1%BB%E6%96%A9%E6%9D%80%E7%9A%84%E4%B8%89%E4%B8%AA%E5%A6%84%E5%BF%B5/" rel="prev" title="《地阶功法卷一》投资者必须斩杀的三个妄念">
+                  <i class="fa fa-angle-left"></i> 《地阶功法卷一》投资者必须斩杀的三个妄念
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2026/01/29/2026%E5%B9%B41%E6%9C%8829%E6%97%A5%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/" rel="next" title="新手投资体系构建：如何构建完整的投资逻辑闭环">
+                  新手投资体系构建：如何构建完整的投资逻辑闭环 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
     </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">LeeMgang</span>
   </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2026/01/29/2026%E5%B9%B41%E6%9C%8829%E6%97%A5%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">前一篇</strong>
-      <div class="article-nav-title">
-        
-          新手投资体系构建：如何构建完整的投资逻辑闭环
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%B8%80%E3%80%8B%E6%8A%95%E8%B5%84%E8%80%85%E5%BF%85%E9%A1%BB%E6%96%A9%E6%9D%80%E7%9A%84%E4%B8%89%E4%B8%AA%E5%A6%84%E5%BF%B5/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">后一篇</strong>
-      <div class="article-nav-title">《地阶功法卷一》投资者必须斩杀的三个妄念</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">分类</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Blog%E6%93%8D%E4%BD%9C%E9%9A%8F%E7%AC%94/">Blog操作随笔</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">投资学习笔记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%9F%A5%E4%B9%8E%E6%94%B6%E8%97%8F/">知乎收藏</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></li></ul>
-    </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MR-Dang%E2%80%8B/" rel="tag">MR Dang​</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/" rel="tag">Markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/" rel="tag">价值投资</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E/" rel="tag">宏观经济</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%95%E8%B5%84%E9%80%BB%E8%BE%91/" rel="tag">投资逻辑</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E8%AE%B0/" rel="tag">日记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/" rel="tag">行业分析</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/MR-Dang%E2%80%8B/" style="font-size: 20px;">MR Dang​</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/" style="font-size: 10px;">价值投资</a> <a href="/tags/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E/" style="font-size: 10px;">宏观经济</a> <a href="/tags/%E6%8A%95%E8%B5%84%E9%80%BB%E8%BE%91/" style="font-size: 10px;">投资逻辑</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 10px;">教程</a> <a href="/tags/%E6%97%A5%E8%AE%B0/" style="font-size: 10px;">日记</a> <a href="/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/" style="font-size: 10px;">行业分析</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/01/">一月 2026</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2026/01/29/2026%E5%B9%B41%E6%9C%8829%E6%97%A5%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/">新手投资体系构建：如何构建完整的投资逻辑闭环</a>
-          </li>
-        
-          <li>
-            <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E5%85%AD%E3%80%8B%E6%AF%8F%E8%82%A1%E6%94%B6%E7%9B%8A%E7%9F%A5%E5%A4%9A%E5%B0%91/">《地阶功法卷六》每股收益知多少</a>
-          </li>
-        
-          <li>
-            <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%B8%80%E3%80%8B%E6%8A%95%E8%B5%84%E8%80%85%E5%BF%85%E9%A1%BB%E6%96%A9%E6%9D%80%E7%9A%84%E4%B8%89%E4%B8%AA%E5%A6%84%E5%BF%B5/">《地阶功法卷一》投资者必须斩杀的三个妄念</a>
-          </li>
-        
-          <li>
-            <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%B8%89%E3%80%8B%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E8%AF%84%E4%BC%B0/">《地阶功法卷三》商业模式评估</a>
-          </li>
-        
-          <li>
-            <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%B8%83%E3%80%8B%E5%88%86%E7%BA%A2%E7%9A%84%E5%8F%AF%E6%8C%81%E7%BB%AD%E6%80%A7%E4%B8%8E%E5%87%80%E5%88%A9%E6%B6%A6%E7%9A%84%E5%85%B3%E7%B3%BB/">《地阶功法卷七》分红的可持续性与净利润的关系</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2026 LeeMgang<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
 
     </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.6.4.min.js"></script>
-
-
+  </footer>
 
   
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
   </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
 </body>
 </html>
