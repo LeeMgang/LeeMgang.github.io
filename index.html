@@ -138,7 +138,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">34</span>
+          <span class="site-state-item-count">35</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -147,7 +147,7 @@
         <span class="site-state-item-name">分类</span>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-count">11</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -164,6 +164,228 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://leemgang.github.io/2026/02/10/Letax%E8%AF%AD%E6%B3%95%EF%BC%9A%E4%BB%A5%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%85%AC%E5%BC%8F%E4%B8%BA%E4%BE%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="LeeMgang">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每天进步一点点">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 每天进步一点点">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/02/10/Letax%E8%AF%AD%E6%B3%95%EF%BC%9A%E4%BB%A5%E7%94%B5%E5%8A%9B%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%85%AC%E5%BC%8F%E4%B8%BA%E4%BE%8B/" class="post-title-link" itemprop="url">Letax语法：以电力电子技术公式为例</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-02-10 14:00:00 / 修改时间：14:14:53" itemprop="dateCreated datePublished" datetime="2026-02-10T14:00:00+08:00">2026-02-10</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Blog%E6%93%8D%E4%BD%9C%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">Blog操作随笔</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>在 Hexo 博客中，可以使用 <code>$公式$</code> 开启行内公式，或者使用
+<code>$$公式$$</code> 开启独立行公式。</p>
+<p>在office办公软件中，可以使用
+<strong>Alt+等于号</strong>来开启公式，输入完毕之后按空格键自动转换。</p>
+<p>&lt;–</p>
+<h2 id="基础运算与符号">1. 基础运算与符号</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">描述</th>
+<th style="text-align: left;">语法</th>
+<th style="text-align: left;">效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">乘号</td>
+<td style="text-align: left;"><code>\times</code></td>
+<td style="text-align: left;"><span class="math inline">×</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">除号</td>
+<td style="text-align: left;"><code>\div</code></td>
+<td style="text-align: left;"><span class="math inline">÷</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">约等于</td>
+<td style="text-align: left;"><code>\approx</code></td>
+<td style="text-align: left;"><span class="math inline">≈</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">不等于</td>
+<td style="text-align: left;"><code>\ne</code></td>
+<td style="text-align: left;"><span class="math inline">≠</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">正负号</td>
+<td style="text-align: left;"><code>\pm</code></td>
+<td style="text-align: left;"><span class="math inline">±</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">根号</td>
+<td style="text-align: left;"><code>\sqrt{x}</code></td>
+<td style="text-align: left;"><span
+class="math inline">$\sqrt{x}$</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">n次方根</td>
+<td style="text-align: left;"><code>\sqrt[n]{x}</code></td>
+<td style="text-align: left;"><span
+class="math inline">$\sqrt[n]{x}$</span></td>
+</tr>
+</tbody>
+</table>
+<h2 id="希腊字母电力电子核心">2. 希腊字母（电力电子核心）</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">字母名称</th>
+<th style="text-align: left;">语法</th>
+<th style="text-align: left;">效果</th>
+<th style="text-align: left;">常用物理量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Alpha</td>
+<td style="text-align: left;"><code>\alpha</code></td>
+<td style="text-align: left;"><span
+class="math inline"><em>α</em></span></td>
+<td style="text-align: left;">控制角</td>
+</tr>
+<tr>
+<td style="text-align: left;">Beta</td>
+<td style="text-align: left;"><code>\beta</code></td>
+<td style="text-align: left;"><span
+class="math inline"><em>β</em></span></td>
+<td style="text-align: left;">逆变角</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gamma</td>
+<td style="text-align: left;"><code>\gamma</code></td>
+<td style="text-align: left;"><span
+class="math inline"><em>γ</em></span></td>
+<td style="text-align: left;">换相重叠角</td>
+</tr>
+<tr>
+<td style="text-align: left;">Delta</td>
+<td style="text-align: left;"><code>\Delta</code></td>
+<td style="text-align: left;"><span
+class="math inline"><em>Δ</em></span></td>
+<td style="text-align: left;">增量/变化量</td>
+</tr>
+<tr>
+<td style="text-align: left;">Phi</td>
+<td style="text-align: left;"><code>\phi</code></td>
+<td style="text-align: left;"><span
+class="math inline"><em>ϕ</em></span></td>
+<td style="text-align: left;">相位差/阻抗角</td>
+</tr>
+<tr>
+<td style="text-align: left;">Omega</td>
+<td style="text-align: left;"><code>\omega</code></td>
+<td style="text-align: left;"><span
+class="math inline"><em>ω</em></span></td>
+<td style="text-align: left;">角频率</td>
+</tr>
+<tr>
+<td style="text-align: left;">Eta</td>
+<td style="text-align: left;"><code>\eta</code></td>
+<td style="text-align: left;"><span
+class="math inline"><em>η</em></span></td>
+<td style="text-align: left;">效率</td>
+</tr>
+</tbody>
+</table>
+<h2 id="分式与上下标">3. 分式与上下标</h2>
+<ul>
+<li><strong>上下标：</strong> <code>U_d^2</code> <span
+class="math inline"> → <em>U</em><sub><em>d</em></sub><sup>2</sup></span></li>
+<li><strong>分式：</strong> <code>\frac{分子}{分母}</code> <span
+class="math inline">$\to \frac{分子}{分母}$</span></li>
+<li><strong>常用组合：</strong> <code>\frac{U_2}{\sqrt{2}}</code> <span
+class="math inline">$\to \frac{U_2}{\sqrt{2}}$</span></li>
+</ul>
+<h2 id="积分与求和">4. 积分与求和</h2>
+<ul>
+<li><p><strong>定积分：</strong>
+<code>\int_{下限}^{上限} f(x) dx</code></p>
+<p>示例：<code>\int_{\alpha}^{\pi} \sin(\omega t) d(\omega t)</code>
+<span
+class="math inline"> → ∫<sub><em>α</em></sub><sup><em>π</em></sup>sin (<em>ω</em><em>t</em>)<em>d</em>(<em>ω</em><em>t</em>)</span></p></li>
+<li><p><strong>求和符号：</strong> <code>\sum_{n=1}^{\infty}</code>
+<span class="math inline">$\to \sum_{n=1}^{\infty}$</span></p></li>
+</ul>
+<h2 id="电力电子典型公式代码">5. 电力电子典型公式代码</h2>
+<h3 id="单相全控整流电压平均值">单相全控整流电压平均值：</h3>
+<p><span class="math display">$$U_d = \frac{2U_2}{\pi} \cos \alpha
+\approx 0.9 U_2 \cos \alpha$$</span> <strong>代码：</strong>
+<code>U_d = \frac{2U_2}{\pi} \cos \alpha \approx 0.9 U_2 \cos \alpha</code></p>
+<h3 id="有效值计算积分形式">有效值计算（积分形式）：</h3>
+<p><span class="math display">$$U = \sqrt{\frac{1}{2\pi} \int_{0}^{2\pi}
+u^2 d(\omega t)}$$</span> <strong>代码：</strong>
+<code>U = \sqrt{\frac{1}{2\pi} \int_{0}^{2\pi} u^2 d(\omega t)}</code></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -1337,6 +1559,381 @@ alt="图片" />
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://leemgang.github.io/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%B8%89%E3%80%8B%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E8%AF%84%E4%BC%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="LeeMgang">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每天进步一点点">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 每天进步一点点">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%B8%89%E3%80%8B%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E8%AF%84%E4%BC%B0/" class="post-title-link" itemprop="url">《地阶功法卷三》商业模式评估</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-01-28 00:00:00 / 修改时间：14:03:58" itemprop="dateCreated datePublished" datetime="2026-01-28T00:00:00+08:00">2026-01-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%9F%A5%E4%B9%8E%E6%94%B6%E8%97%8F/" itemprop="url" rel="index"><span itemprop="name">知乎收藏</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <blockquote>
+<p>本文来源于知乎，作者为MR Dang​</p>
+<p>前置功法：</p>
+</blockquote>
+<p><a
+target="_blank" rel="noopener" href="https://www.zhihu.com/question/631759877/answer/1964667045229601193">地阶功法卷二</a></p>
+<p><a
+target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/81611338101">地阶功法卷一</a></p>
+<p><a
+target="_blank" rel="noopener" href="https://www.zhihu.com/question/1961333774668235674/answer/1961757042743178205">煤化工</a></p>
+<p><a
+target="_blank" rel="noopener" href="https://www.zhihu.com/question/279163389/answer/1964973757945873920">天阶功法卷一</a></p>
+<p>先复习一下，卷一我们讲的是什么？</p>
+<p>选股思路，自上而下，见微知著，从<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F&amp;zhida_source=entity">商业模式</a>入手，找出关键变量。</p>
+<p>例子就在那里了，能悟出多少，就看诸位道友的造化了。</p>
+<p>这种能力是什么样的能力呢？</p>
+<p>就是我常说的一眼看胖瘦，古玩圈里的大开门一样，它不是玄学，它是一种模糊的正确。</p>
+<p>我经常挂在嘴边的一句话就是，<strong>模糊的正确远远胜于精确的错误</strong>。</p>
+<p>华山论鉴不知道大家看过没有，经常有些国宝帮的拿来一个微波炉专用瓷碗，然后嘴上说着您甭管它是不是微波炉专用，你就说这釉水，这圈口，这底足，多地道啊。</p>
+<p>大家看了都呵呵一笑，觉得大爷是乐子人。</p>
+<p>但是放在资本市场，这种人只多不少。</p>
+<p>基本的公司运转逻辑不看，商业模式不看，就盯着<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=PE&amp;zhida_source=entity">PE</a>，<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=PB&amp;zhida_source=entity">PB</a>在那里按计算器感叹，这多低估啊。</p>
+<p>真的低估么？</p>
+<p>我们不妨看看商业模式？</p>
+<p>怎么又是“商业模式”？</p>
+<p>这个词都听腻了，可不可以说说到底什么是商业模式呢？</p>
+<p>于是你在AI里输入商业模式四个字，得到了各种MBA课程里的，战略课程里的，各种高大上的词汇，什么“<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E5%95%86%E4%B8%9A%E7%94%BB%E5%B8%83&amp;zhida_source=entity">商业画布</a>”，“<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E4%BB%B7%E5%80%BC%E9%93%BE%E6%9D%A1&amp;zhida_source=entity">价值链条</a>”，“<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E4%BB%B7%E5%80%BC%E5%AE%9A%E4%BD%8D&amp;zhida_source=entity">价值定位</a>”，“<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E7%9B%AE%E6%A0%87%E5%B8%82%E5%9C%BA&amp;zhida_source=entity">目标市场</a>”，“<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E5%AE%A2%E6%88%B7%E5%85%B3%E7%B3%BB&amp;zhida_source=entity">客户关系</a>”。</p>
+<p>这些东西，要不要学？</p>
+<p>要。</p>
+<p>学了有没有用？</p>
+<p>有。</p>
+<p>但是学完之后你还是糊涂的。</p>
+<p>因为你还是没有搞清楚，投资的时候怎么看一个公司的商业模式好不好。</p>
+<p>但是今天在我这里，诸位道友来着了。</p>
+<p>不要998，不要188，只要一个赞，商业模式免费送！</p>
+<p>商业模式，一言以蔽之。</p>
+<p>就是一个字，“求”</p>
+<p><strong>商业模式是个求</strong>。</p>
+<p>你要看和公司的利益相关者，与上市公司之间的关系，是谁有求于谁。</p>
+<p>这种求的外在表现，就是<strong>话语权，定价权的让渡。</strong></p>
+<hr />
+<p>例子1.</p>
+<p>茅台和山西汾酒，同样是一二线的白酒品牌，为什么大家都说茅台的商业模式好，没人说汾酒的商业模式好？</p>
+<p>站在消费者的角度来说，你是要1499<strong>求购</strong>53度飞天茅台的，而不需要去求购青花瓷汾酒。</p>
+<p>时至今日，整个白酒行业都萎靡不振，唯有原价飞天还需要求购，这就是商业模式的优势。</p>
+<p>例子2.</p>
+<p>为什么说<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E9%9B%B7%E5%B8%83%E6%96%AF&amp;zhida_source=entity">雷布斯</a>是人类历史上最优秀的销售鬼才？</p>
+<p>电子消费品行业，本来厂家和消费者的关系是厂家求消费者购买。</p>
+<p>但是雷布斯通过一系列的产品和定价运作，颠倒了这个顺序，变成了消费者求厂家售卖，近乎邪术。</p>
+<p>后来进军汽车市场也沿用了这套打法，董大妈但凡有雷布斯百分之一的销售能力也不至于让格力这么低估。</p>
+<hr />
+<p>所以我说商业模式就是研究个”求“，你把谁求谁看懂了，商业模式的好坏就看懂了。</p>
+<p><strong>最好的商业模式是”三求“：</strong></p>
+<p>上游求，下游求，ZF求。</p>
+<p>你的上游厂商挤破脑袋求着你和他们合作。</p>
+<p>你的下游消费者排着队求你卖产品。</p>
+<p>你的当地ZF求着你把工厂别搬走。</p>
+<p>这类企业都是响当当的商业模式优秀的企业。</p>
+<p>比如茅子，果子，达子。</p>
+<hr />
+<p><strong>次一点的商业模式是”两求“：</strong></p>
+<p>典型的比如有色，上游求，矿工能有什么话语权。</p>
+<p>ZF求，纳税大户。</p>
+<p>但是下游不存在求不求的，大宗商品，随行就市，基本上处于平等的位置。‘</p>
+<p>再比如迪子，上游求，下游不求，ZF求。</p>
+<p>大部分比较优秀的企业处在这一档。</p>
+<hr />
+<p><strong>再次一点的商业模式是”一求“</strong></p>
+<p>绝大部分（95%）以上的企业处于这一档，和上游平等对话，谁有性价比用谁的产品。</p>
+<p>和下游也是平等对话，互相选择，公平竞争。</p>
+<p>ZF看在税收的份上，还是呵护着你的。</p>
+<hr />
+<p><strong>最差的商业模式是”0求“</strong></p>
+<p>上游不惯着你，看你产品涨价，他就涨价。</p>
+<p>下游也不惯着你，你得求他买你的产品，要装孙子，要求爷爷告奶奶。</p>
+<p>连ZF也不求你，你交了税也得求他。</p>
+<p>你说不对啊，还有这么拉跨的商业模式?</p>
+<p>有的，兄弟，有的。</p>
+<p><strong>地产</strong></p>
+<p>不要以为有色和地产都是周期股，商业模式就一样了，有色比地产高两个LEVEL。</p>
+<p>如果把公司比成糕点师，地产公司和有色公司都是把面粉（地皮/矿产）加工成面包（房子/金属）进行售卖。</p>
+<p><strong>有色</strong>行业的周期是什么意思，面粉价格基本就那样，开采成本大差不差的，但是面包有周期，有的时候贵，有的时候便宜，周期来了发一大笔，没周期的时候就小赚或者小亏。</p>
+<p>面包涨价，有色的春天就来了。</p>
+<p><strong>地产</strong>行业的周期是什么意思，卖面粉的人紧紧盯着你的面包，你的面包只要敢涨价，他的面粉涨的比你又快又狠，你不买他的别处还没有。</p>
+<p>你还不能囤面粉，买了面粉就得做面包，不做就把面粉收回了。</p>
+<p>买面粉你还要参加竞拍，还要交保证金。</p>
+<p>卖了面包，钱还进不了你口袋，得放在公开的地方让大家监管。</p>
+<p>周期来了，你唯一能吃到的红利就是手里的面包能多值点钱，面包卖的快一点，仅此而已，面包没卖出去之前都是纸上富贵。</p>
+<p>你得求你的上游，下游，巧合的是你的上游是ZF，所以你是0求。</p>
+<p>所以我反复强调，<strong>房产是最差的投资品之一，地产公司是最差的商业模式</strong>。</p>
+<p>除了地产还有没有其他的0求的商业模式避坑呢？</p>
+<p>有的，兄弟，还有的。</p>
+<p><strong>所有建在市区的重工业中间环节加工企业</strong></p>
+<p>————————————————分割线———————————————————</p>
+<p>为什么今天要说商业模式？</p>
+<p>因为同样的商业模式下，讨论估值才有意义。</p>
+<p>不同的商业模式是没办法横向对比的。</p>
+<p>正所谓:</p>
+<p>天地生人，各有所求。</p>
+<p>股市纵横，供需相系。</p>
+<p>求者非单，应者非寡。</p>
+<p>往来循环，生生不息。</p>
+<p>货有贵贱，价有高低。</p>
+<p>求应之道，天地之理。</p>
+<p>求者愈众，应者获利。</p>
+<p>此非不义，中有真意。</p>
+<p>今传《地阶功法卷三》，</p>
+<p>诸位道友当慎之，思之，点赞之，订阅之。</p>
+<p>虽匹夫之业，亦可成千秋之功！</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://leemgang.github.io/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%BA%8C%E3%80%8B%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E4%B8%89%E5%A4%A7%E8%AF%AF%E5%8C%BA/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="LeeMgang">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每天进步一点点">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 每天进步一点点">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%BA%8C%E3%80%8B%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E4%B8%89%E5%A4%A7%E8%AF%AF%E5%8C%BA/" class="post-title-link" itemprop="url">《地阶功法卷二》价值投资三大误区</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-01-28 00:00:00 / 修改时间：14:04:14" itemprop="dateCreated datePublished" datetime="2026-01-28T00:00:00+08:00">2026-01-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%9F%A5%E4%B9%8E%E6%94%B6%E8%97%8F/" itemprop="url" rel="index"><span itemprop="name">知乎收藏</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <blockquote>
+<p>本文来源于知乎，作者：<a
+target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/1964619498628817898">MR Dang​</a></p>
+<p>前置功法：</p>
+</blockquote>
+<p><a
+target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/81611338101">地阶功法卷一</a></p>
+<p>卷一我们主要讲心态。</p>
+<p>卷二我们开始讲方法论，首先最重要的是不要走弯路，特别是有三个<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84&amp;zhida_source=entity">价值投资</a>的误区，很多人这么多年了，兜兜转转还在里面转圈。</p>
+<p>特此提出，以示警醒。</p>
+<p><strong>其一，迷信<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E8%B4%A2%E6%8A%A5&amp;zhida_source=entity">财报</a></strong>。</p>
+<p>财报者，过去之数据也。</p>
+<p>财务为皮，经营为骨。</p>
+<p>财报是让你用来<strong>印证</strong>你对公司商业模式和经营情况的判断的。</p>
+<p>不是让你打开一堆财报，在里面找哪个数据更好的。</p>
+<p>你的思路如果是一堆财报放在面前，不去思考公司的商业模式，不去思考公司的经营风险，一头扎在各种会计科目，纠结各种会计处理，哪家公司又是<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E5%85%AC%E5%85%81%E4%BB%B7%E5%80%BC%E6%B3%95&amp;zhida_source=entity">公允价值法</a>，哪家公司又是<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E6%88%90%E6%9C%AC%E6%B3%95&amp;zhida_source=entity">成本法</a>，哪家公司计提了多少，各种费用又摊销了多少。</p>
+<p>那么我可以明确的告诉你，你连价值投资的边都没摸到。</p>
+<p>为什么？</p>
+<p><strong>财报本身是不可靠的。</strong></p>
+<p>不可靠有三方面：</p>
+<p>A.舞弊的存在。</p>
+<p>大众对审计最大的误解就是，认为一个合格的审计流程可以规避舞弊的风险。</p>
+<p>但是如果你去四大八大问一遍，他们的审计流程能不能应对串通舞弊导致的财务风险，我相信没有任何一个审计机构敢给你打包票。</p>
+<p>B.财务语言的失真</p>
+<p>投资者和财报编写者之间沟通的语言是什么？是<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99&amp;zhida_source=entity">会计准则</a>。</p>
+<p>但是会计准则是一套复杂的，随时更新的语言系统。</p>
+<p>这门语言复杂到，专业的财务人员对同一个财务活动会给出不同的职业判断。</p>
+<p>财务人员之间尚且水平参差不齐，何况财务人员和普通投资者之间？</p>
+<p>随时更新又是什么意思？</p>
+<p>随时会变更会计科目。</p>
+<p>比如最重要的收入确认的判断，最近十年来会计准则变了多少？</p>
+<p>一会儿段履行了，一会儿点履行了，一会儿又合同负债了。</p>
+<p>可能只是一张入库单的区别，财务报表上就是大变样。</p>
+<p>因为“控制权”这种东西本身就是模糊的，不是量化的，最后变成<strong>谁职位高，谁说了算</strong>。</p>
+<p>C.会计准则本身的扭曲</p>
+<p>不但不同的人对会计准则有不同的理解，会计准则它本身就是扭曲的。</p>
+<p>《<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E4%BC%81%E4%B8%9A%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99%E7%AC%AC22%E5%8F%B7&amp;zhida_source=entity">企业会计准则第22号</a>——<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E9%87%91%E8%9E%8D%E5%B7%A5%E5%85%B7%E7%A1%AE%E8%AE%A4%E5%92%8C%E8%AE%A1%E9%87%8F&amp;zhida_source=entity">金融工具确认和计量</a>》这是每年注会考试的重点。</p>
+<p>会计准则把金融工具分为“公变资”“交金””摊资“这么些大类，全名太长了，我懒得打，你们也不用深究。</p>
+<p>他们中有些价格变动入损益表”公允价损益“</p>
+<p>还有些变动入权益表”其他综合收益“</p>
+<p>问题是，入损益表的，这些是<strong>计入</strong>每股净资产和<strong>每股收益</strong>的。</p>
+<p>但是，进入权益表的，这是是<strong>不计入每股收益</strong>的，只计入每股净资产。</p>
+<p>而这些金融资产的划分是相当主观的。</p>
+<p>老有些老股民好奇，怎么每次出来的财务报表，数据对不上，净资产增加的数字和每股收益的增加值对不上，这就是答案，给你弄进其他综合收益了。</p>
+<p>以上就是告诉你，财报你得会看，但是会看不是代表你就能挑出好股来，最多也就是让你避坑，真要挑出好的，还得从商业模式开始往下扒拉。</p>
+<p><strong>其二,长期持有</strong></p>
+<p>这还是犯了没有看清价值投资内在逻辑的错误。</p>
+<p>什么是价值投资？价值10块的东西，市面上有人5块兜售，你觉得便宜，就买下了，等着到10块卖出去。</p>
+<p>因为没有人有把握这个5块的东西，马上能到10块，所以你做好了长期持有的准备。</p>
+<p>但是，万一第二天就有个人要给你8块钱买你的东西。</p>
+<p>你还想什么啊？你转手就赚了3块，还需要再等几年去等那个两块么？</p>
+<p>非要死死抱着你的东西，然后等个三五年十块钱卖出去，图啥呢？</p>
+<p>你拿着8块钱，去市场上再去找，大把的便宜的东西多的是。</p>
+<p>你已经把三块钱的价值发掘了，那就是价值投资。</p>
+<p>但是大多时候，你的运气并不好，所以还是要长时间的等，等你手里的东西创造价值，等别人发现你手里的东西在创造价值。</p>
+<p>长时间持有只是一种表象，内在是挖掘价值向市场展示价值的过程。</p>
+<p>如果反其道而行之，只是一味的抱着一个半死不活的企业，等着一个大怨种掏高价，那也不过是资本市场里的国宝帮而已。</p>
+<p><strong>其三，估值低就是价值投资。</strong></p>
+<p>PBX7dwI”&gt;其实这就话本身没什么太大的毛病。</p>
+<p>价值投资就是要买便宜的有价值的东西。</p>
+<p>问题出在对”估值低“这三个字的理解上了。</p>
+<p>甭管你是<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=PE&amp;zhida_source=entity">PE</a>,PB,<a
+target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=PEG%E4%BC%B0%E5%80%BC&amp;zhida_source=entity">PEG估值</a>，一定是对<strong>未来</strong>的财务数据进行估值。</p>
+<p>任何时候，你把选股器打开，把PE,PB一拉，那都不叫估值低，那叫懒。</p>
+<p>举个例子吧，很多地产股，PB很低，估值低不低。</p>
+<p>一点都不低。</p>
+<p>为啥，你看到的那个PB，已经是滞后的信息了。</p>
+<p>很有可能，站在财报日那天，存货都还没计提干净。</p>
+<p>你要知道地产股，负债是刚性的，资产是弹性的，资产一缩水，你这PB不直接炸了么？</p>
+<p>财报日到你做出决策的时候还有几个月，这几个月房地产还在下行，净资产还在减少。</p>
+<p>等你买进去，到你卖出来，还有一段日子，净资产依然在减少。</p>
+<p>你0.5PB冲进去，5PB逃出来，结果一看股价腰斩。</p>
+<p>就是这么残酷。</p>
+<p>——————————————分割线——————————————</p>
+<p>价值投资不是一个匡，不要啥都往里装。</p>
+<p>很多投资者只是道听途说几句相关的表述，就以为自己掌握了价值投资的不二法门。</p>
+<p>多年过去，收益没有起色，就开始埋怨价值投资不行。</p>
+<p>正所谓：</p>
+<p>价投之道，</p>
+<p>莫奉财报为金科，</p>
+<p>莫执长期为玉律，</p>
+<p>莫恃低估为圭臬，</p>
+<p>莫困价投为牢笼。</p>
+<p>投资如弈，</p>
+<p>谋势为先，谋子为后。</p>
+<p>贵极而沽，贱极而取。</p>
+<p>贵贱之别，在于察势。</p>
+<p>莫奉旧辙为恒常，</p>
+<p>旧岁之迹，并非今岁之径。</p>
+<p>望诸位道友慎之，思之，察之。</p>
+<p>切莫误入迷途！！！</p>
+<p>—————————————————————————————————————</p>
+<p>一个喜欢保护韭菜的博主，希望大家少踩坑，多赚钱！</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="https://leemgang.github.io/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%B8%80%E3%80%8B%E6%8A%95%E8%B5%84%E8%80%85%E5%BF%85%E9%A1%BB%E6%96%A9%E6%9D%80%E7%9A%84%E4%B8%89%E4%B8%AA%E5%A6%84%E5%BF%B5/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1678,560 +2275,6 @@ target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=2
 <p>再重复一遍，<strong>人之道，损不足而奉有余</strong>。</p>
 <hr />
 <p>一个喜欢保护韭菜的博主，希望大家少少踩坑，多多赚钱。</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://leemgang.github.io/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%B8%89%E3%80%8B%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E8%AF%84%E4%BC%B0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="LeeMgang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="每天进步一点点">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | 每天进步一点点">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%B8%89%E3%80%8B%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E8%AF%84%E4%BC%B0/" class="post-title-link" itemprop="url">《地阶功法卷三》商业模式评估</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2026-01-28 00:00:00 / 修改时间：14:03:58" itemprop="dateCreated datePublished" datetime="2026-01-28T00:00:00+08:00">2026-01-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E7%9F%A5%E4%B9%8E%E6%94%B6%E8%97%8F/" itemprop="url" rel="index"><span itemprop="name">知乎收藏</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <blockquote>
-<p>本文来源于知乎，作者为MR Dang​</p>
-<p>前置功法：</p>
-</blockquote>
-<p><a
-target="_blank" rel="noopener" href="https://www.zhihu.com/question/631759877/answer/1964667045229601193">地阶功法卷二</a></p>
-<p><a
-target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/81611338101">地阶功法卷一</a></p>
-<p><a
-target="_blank" rel="noopener" href="https://www.zhihu.com/question/1961333774668235674/answer/1961757042743178205">煤化工</a></p>
-<p><a
-target="_blank" rel="noopener" href="https://www.zhihu.com/question/279163389/answer/1964973757945873920">天阶功法卷一</a></p>
-<p>先复习一下，卷一我们讲的是什么？</p>
-<p>选股思路，自上而下，见微知著，从<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F&amp;zhida_source=entity">商业模式</a>入手，找出关键变量。</p>
-<p>例子就在那里了，能悟出多少，就看诸位道友的造化了。</p>
-<p>这种能力是什么样的能力呢？</p>
-<p>就是我常说的一眼看胖瘦，古玩圈里的大开门一样，它不是玄学，它是一种模糊的正确。</p>
-<p>我经常挂在嘴边的一句话就是，<strong>模糊的正确远远胜于精确的错误</strong>。</p>
-<p>华山论鉴不知道大家看过没有，经常有些国宝帮的拿来一个微波炉专用瓷碗，然后嘴上说着您甭管它是不是微波炉专用，你就说这釉水，这圈口，这底足，多地道啊。</p>
-<p>大家看了都呵呵一笑，觉得大爷是乐子人。</p>
-<p>但是放在资本市场，这种人只多不少。</p>
-<p>基本的公司运转逻辑不看，商业模式不看，就盯着<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=PE&amp;zhida_source=entity">PE</a>，<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=PB&amp;zhida_source=entity">PB</a>在那里按计算器感叹，这多低估啊。</p>
-<p>真的低估么？</p>
-<p>我们不妨看看商业模式？</p>
-<p>怎么又是“商业模式”？</p>
-<p>这个词都听腻了，可不可以说说到底什么是商业模式呢？</p>
-<p>于是你在AI里输入商业模式四个字，得到了各种MBA课程里的，战略课程里的，各种高大上的词汇，什么“<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E5%95%86%E4%B8%9A%E7%94%BB%E5%B8%83&amp;zhida_source=entity">商业画布</a>”，“<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E4%BB%B7%E5%80%BC%E9%93%BE%E6%9D%A1&amp;zhida_source=entity">价值链条</a>”，“<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E4%BB%B7%E5%80%BC%E5%AE%9A%E4%BD%8D&amp;zhida_source=entity">价值定位</a>”，“<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E7%9B%AE%E6%A0%87%E5%B8%82%E5%9C%BA&amp;zhida_source=entity">目标市场</a>”，“<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E5%AE%A2%E6%88%B7%E5%85%B3%E7%B3%BB&amp;zhida_source=entity">客户关系</a>”。</p>
-<p>这些东西，要不要学？</p>
-<p>要。</p>
-<p>学了有没有用？</p>
-<p>有。</p>
-<p>但是学完之后你还是糊涂的。</p>
-<p>因为你还是没有搞清楚，投资的时候怎么看一个公司的商业模式好不好。</p>
-<p>但是今天在我这里，诸位道友来着了。</p>
-<p>不要998，不要188，只要一个赞，商业模式免费送！</p>
-<p>商业模式，一言以蔽之。</p>
-<p>就是一个字，“求”</p>
-<p><strong>商业模式是个求</strong>。</p>
-<p>你要看和公司的利益相关者，与上市公司之间的关系，是谁有求于谁。</p>
-<p>这种求的外在表现，就是<strong>话语权，定价权的让渡。</strong></p>
-<hr />
-<p>例子1.</p>
-<p>茅台和山西汾酒，同样是一二线的白酒品牌，为什么大家都说茅台的商业模式好，没人说汾酒的商业模式好？</p>
-<p>站在消费者的角度来说，你是要1499<strong>求购</strong>53度飞天茅台的，而不需要去求购青花瓷汾酒。</p>
-<p>时至今日，整个白酒行业都萎靡不振，唯有原价飞天还需要求购，这就是商业模式的优势。</p>
-<p>例子2.</p>
-<p>为什么说<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265502445&amp;content_type=Article&amp;match_order=1&amp;q=%E9%9B%B7%E5%B8%83%E6%96%AF&amp;zhida_source=entity">雷布斯</a>是人类历史上最优秀的销售鬼才？</p>
-<p>电子消费品行业，本来厂家和消费者的关系是厂家求消费者购买。</p>
-<p>但是雷布斯通过一系列的产品和定价运作，颠倒了这个顺序，变成了消费者求厂家售卖，近乎邪术。</p>
-<p>后来进军汽车市场也沿用了这套打法，董大妈但凡有雷布斯百分之一的销售能力也不至于让格力这么低估。</p>
-<hr />
-<p>所以我说商业模式就是研究个”求“，你把谁求谁看懂了，商业模式的好坏就看懂了。</p>
-<p><strong>最好的商业模式是”三求“：</strong></p>
-<p>上游求，下游求，ZF求。</p>
-<p>你的上游厂商挤破脑袋求着你和他们合作。</p>
-<p>你的下游消费者排着队求你卖产品。</p>
-<p>你的当地ZF求着你把工厂别搬走。</p>
-<p>这类企业都是响当当的商业模式优秀的企业。</p>
-<p>比如茅子，果子，达子。</p>
-<hr />
-<p><strong>次一点的商业模式是”两求“：</strong></p>
-<p>典型的比如有色，上游求，矿工能有什么话语权。</p>
-<p>ZF求，纳税大户。</p>
-<p>但是下游不存在求不求的，大宗商品，随行就市，基本上处于平等的位置。‘</p>
-<p>再比如迪子，上游求，下游不求，ZF求。</p>
-<p>大部分比较优秀的企业处在这一档。</p>
-<hr />
-<p><strong>再次一点的商业模式是”一求“</strong></p>
-<p>绝大部分（95%）以上的企业处于这一档，和上游平等对话，谁有性价比用谁的产品。</p>
-<p>和下游也是平等对话，互相选择，公平竞争。</p>
-<p>ZF看在税收的份上，还是呵护着你的。</p>
-<hr />
-<p><strong>最差的商业模式是”0求“</strong></p>
-<p>上游不惯着你，看你产品涨价，他就涨价。</p>
-<p>下游也不惯着你，你得求他买你的产品，要装孙子，要求爷爷告奶奶。</p>
-<p>连ZF也不求你，你交了税也得求他。</p>
-<p>你说不对啊，还有这么拉跨的商业模式?</p>
-<p>有的，兄弟，有的。</p>
-<p><strong>地产</strong></p>
-<p>不要以为有色和地产都是周期股，商业模式就一样了，有色比地产高两个LEVEL。</p>
-<p>如果把公司比成糕点师，地产公司和有色公司都是把面粉（地皮/矿产）加工成面包（房子/金属）进行售卖。</p>
-<p><strong>有色</strong>行业的周期是什么意思，面粉价格基本就那样，开采成本大差不差的，但是面包有周期，有的时候贵，有的时候便宜，周期来了发一大笔，没周期的时候就小赚或者小亏。</p>
-<p>面包涨价，有色的春天就来了。</p>
-<p><strong>地产</strong>行业的周期是什么意思，卖面粉的人紧紧盯着你的面包，你的面包只要敢涨价，他的面粉涨的比你又快又狠，你不买他的别处还没有。</p>
-<p>你还不能囤面粉，买了面粉就得做面包，不做就把面粉收回了。</p>
-<p>买面粉你还要参加竞拍，还要交保证金。</p>
-<p>卖了面包，钱还进不了你口袋，得放在公开的地方让大家监管。</p>
-<p>周期来了，你唯一能吃到的红利就是手里的面包能多值点钱，面包卖的快一点，仅此而已，面包没卖出去之前都是纸上富贵。</p>
-<p>你得求你的上游，下游，巧合的是你的上游是ZF，所以你是0求。</p>
-<p>所以我反复强调，<strong>房产是最差的投资品之一，地产公司是最差的商业模式</strong>。</p>
-<p>除了地产还有没有其他的0求的商业模式避坑呢？</p>
-<p>有的，兄弟，还有的。</p>
-<p><strong>所有建在市区的重工业中间环节加工企业</strong></p>
-<p>————————————————分割线———————————————————</p>
-<p>为什么今天要说商业模式？</p>
-<p>因为同样的商业模式下，讨论估值才有意义。</p>
-<p>不同的商业模式是没办法横向对比的。</p>
-<p>正所谓:</p>
-<p>天地生人，各有所求。</p>
-<p>股市纵横，供需相系。</p>
-<p>求者非单，应者非寡。</p>
-<p>往来循环，生生不息。</p>
-<p>货有贵贱，价有高低。</p>
-<p>求应之道，天地之理。</p>
-<p>求者愈众，应者获利。</p>
-<p>此非不义，中有真意。</p>
-<p>今传《地阶功法卷三》，</p>
-<p>诸位道友当慎之，思之，点赞之，订阅之。</p>
-<p>虽匹夫之业，亦可成千秋之功！</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://leemgang.github.io/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E5%9B%9B%E3%80%8B/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="LeeMgang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="每天进步一点点">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | 每天进步一点点">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E5%9B%9B%E3%80%8B/" class="post-title-link" itemprop="url">《地阶功法卷四》</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2026-01-28 00:00:00 / 修改时间：14:03:54" itemprop="dateCreated datePublished" datetime="2026-01-28T00:00:00+08:00">2026-01-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E7%9F%A5%E4%B9%8E%E6%94%B6%E8%97%8F/" itemprop="url" rel="index"><span itemprop="name">知乎收藏</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <blockquote>
-<p>本文来源于知乎，作者为<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/people/268791354">MR Dang​</a></p>
-<p>今天的内容做成一篇地阶功法也是可以的。</p>
-</blockquote>
-<p>但是最近事情比较多。</p>
-<p>眼看着<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E7%B4%AB%E8%8F%9C%E7%BB%84%E5%90%88&amp;zhida_source=entity">紫菜组合</a>要止盈了，在研究一个<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E5%9B%B0%E5%A2%83%E5%8F%8D%E8%BD%AC&amp;zhida_source=entity">困境反转</a>的低估标的，不是光伏那种反内卷的困境反转，是已经反转，正在进入景气周期的公司。</p>
-<p>所以只能是长话多说，在周末闲聊这里聊点硬核的东西。</p>
-<hr />
-<p>投资者在资本市场，最基本的一件事情就是要找准自己的定位以及自己适用的体系。</p>
-<p>体系大概分为两类，<strong>强者</strong>体系和<strong>弱者</strong>体系。</p>
-<p>所谓<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E5%BC%BA%E8%80%85%E4%BD%93%E7%B3%BB&amp;zhida_source=entity">强者体系</a>，就是你认为自己比市场聪明，你要主动的给投资标的去定价，然后坚信自己的定价比市场上其他的投资者更准确。</p>
-<p>你要对市场说No，有些股可能常年累月都是低估的，你也敢勇敢的买进去，有些股可能常年累月都是高估的，你也能提出质疑。</p>
-<p>总之在你眼里，市场就是一大傻子。</p>
-<p>与之相对的就是<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E5%BC%B1%E8%80%85%E4%BD%93%E7%B3%BB&amp;zhida_source=entity">弱者体系</a>。所谓弱者体系，就是知道自己不如市场聪明，所以跟着市场来，相信市场的定价都是合理的。</p>
-<p>涨了是合理的，跌了也是合理的，涨了又跌了也是合理的，跌了又涨了还是合理的。</p>
-<p>总之市场就是大爷，说啥都是对的。你要做的就是在大爷开口说话的瞬间立马听它的话，然后等大爷给的奖励。</p>
-<hr />
-<p>这两者没有孰高孰低，都能在资本市场挣钱。</p>
-<p>但是怕的是什么呢？是<strong>定位偏离</strong>。</p>
-<p>明明没有信息优势，没有知识储备，没有资金优势，却误以为自己是强者，搞挖掘冷门股，和趋势作对这一套强者才干的事情。</p>
-<p>明明自己有比较多的资金，有学科优势，有知识储备，有信息优势，有脑力加持，却放弃自己的优势，去搞打板，追涨杀跌这一套。</p>
-<hr />
-<p><strong>强者体系和弱者体系的投资者之间是有沟通障碍的。</strong></p>
-<p>比如常见的沟通场景就是强者体系的投资者指着一个跌跌不休的股票，说这东西如何如何低估，如何如何好，市场错杀了。</p>
-<p>弱者体系的投资者反手就是一句：跌有跌的道理，市场永远是对的。</p>
-<p>或者强者体系的投资者指着一个涨幅脱离基本面的股票，说这些东西如何如何高估，风险如何如何大，市场炒作而已。</p>
-<p>弱者体系的投资者反手就是一句： 涨有涨的道理，市场永远是对的。</p>
-<p>他们之间一定有对错么？</p>
-<p>也不见得。</p>
-<p>低估是真的，低估的股票还能继续低估也是真的。</p>
-<p>高估是真的，高估的股票还能继续高估也是真的。</p>
-<p>但是两者经常因为对市场的不同态度而争论起来，市场观的差别会让两者根本无法沟通，都觉得对面完全无法理喻。</p>
-<hr />
-<p>大部分投资者其实都是弱者体系，其中少部分投资者经过多年的交易，超额收益率会让他得到自信，慢慢转变成强者体系。</p>
-<p>也有天生的强者体系投资者，属于初生牛犊不怕虎，大部分都是被市场磨平棱角，最后道心破碎，成为弱者体系投资者的一员，反而提升了收益率。</p>
-<p>只有极少极少部分的天才，从一开始就是强者体系的，做的顺风顺水，最后成为投资界的传奇。</p>
-<p>至于我的话，经历更曲折，有一个强—弱—强的变化过程，所以对两边都还比较熟。</p>
-<hr />
-<p>上周给孩子买的<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E9%93%82%E9%87%91%E6%9D%A1&amp;zhida_source=entity">铂金条</a>压岁钱还没发到他们手里已经开始升值了。</p>
-<p>我研究了下，铂金条比其他金属好鉴定，哪怕不用光谱仪。</p>
-<p>因为铂有一个特性，密度排第三，21.45
-，比黄金的19.32还高。排它前面那两个有一个比是它贵的多的<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E9%93%B1&amp;zhida_source=entity">铱</a>，另一个是被严格管控流通的<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E9%94%87&amp;zhida_source=entity">锇</a>。</p>
-<p>所以只要你会基本的排水法测密度，当一回现代的<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7&amp;zhida_source=entity">阿基米德</a>，算出来密度，就能鉴定出真假。</p>
-<p>铂不只是密度比黄金高，熔点也超过了1700度，比黄金一千多度的熔点高的多。</p>
-<p>铂作为投资品，金融属性远远比不上黄金，折价多，流通性差，没共识，一次买卖的摩擦成本超过了5%，所以不适合多次买卖，只适合一次投入，就死拿很多年那种。</p>
-<p>但是铂的工业属性更强，是著名催化剂，在汽车尾气净化和氢燃料电池中都有大规模的应用。</p>
-<p>从供需关系来说，铂的开采难度非常大，一吨矿大概产出1克铂，是很多金矿的几分之一甚至几十分之一。</p>
-<p>我们国家是贫铂国，90%以上依赖进口，剩下也基本是回收利用，我们的铂矿大概每吨只有0.3克铂，是南非的三分之一都不到，开采成本极高。</p>
-<p>铂的丰度是百万分之0.005，大概只有黄金的三十分之一。</p>
-<p>每年铂的总产量不到200吨，而黄金达到3500吨以上。</p>
-<p>铂的80%以上供应靠南非，所以只要南非出问题，铂的价格就会飞起来。</p>
-<p>买铂有点像买一个赌南非局势出问题的期权，听起来有点不道德，不过确实可以因为那边的局势动荡而获益。</p>
-<p>目前铂的价格只有黄金一半，从估值角度来说，个人觉得属于相对低估，这也是我下手买铂的原因，仅供参考。</p>
-<hr />
-<p>周末一般不聊股票，不过实在是后台问的人太多了，就不一一回复了。</p>
-<figure>
-<img
-src="https://pic4.zhimg.com/v2-76028cef22f74d6b840a7a3e3cc29dab.jpg"
-alt="图片" />
-<figcaption aria-hidden="true">图片</figcaption>
-</figure>
-<p>也没多大的事，就是<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E9%93%9D%E7%8E%8B%E5%B9%B3%E6%9B%BF&amp;zhida_source=entity">铝王平替</a>改了个名，亮出了铝王的本名，另外就是下周二开始发新股，市值一下跳到三千多亿。</p>
-<p>影响的话，两方面吧。</p>
-<p>一方面是<strong>财务报表</strong>方面，铝王这个用财务术语说就是“同一控制下企业合并”，简称“同控”。</p>
-<p>所谓同控就是合并前后，最后的实际控制人都是<strong>同</strong>一个人，都是一个老板。</p>
-<p>这个大概了解就行，这属于cpa会计里最难的内容，没有之一。</p>
-<p>同控合并的一个特点是需要<strong>追朔调整。</strong></p>
-<p>这个怎么理解呢，就是视同一开始就已经进行了合并，<strong>而不是发公告的时候。</strong></p>
-<p>相当于直接改变你的记忆，从此那个亏损的公司没了，你查看以后的报表的时候，上面会清清楚楚写着2024年爆赚，2025年也是爆赚，</p>
-<p>同时我们的业绩预告规则就是2025年合并<strong>后</strong>的业绩（假设225亿）和2024假设年合并<strong>后</strong>（大概180亿）的业绩比较，那这样的话基本触发不了50%的强制预告线，所以<strong>不一定有业绩预告。</strong></p>
-<p>另一方面就是<strong>资本市场</strong>的影响。</p>
-<p>以前的铝王平替是路边一条，人见人嫌。</p>
-<p>现在的铝王三千多亿，而且涨幅巨大。按照指数嫌贫爱富的规则，一定会被抬进指数里。</p>
-<p>最基础最重要的就是<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E6%B2%AA%E6%B7%B1300&amp;zhida_source=entity">沪深300</a>，这个基本属于必进，影响巨大，参考另一家同体型的铝业<strong>，被动配置资金规模能达到百亿级别</strong>。</p>
-<p>沪深300是456规则，也就是5月审核，参考4月的数据，6月生效。</p>
-<p>铝王卡在年报发布前完成重组，肯定赶趟。</p>
-<p>然后还有<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E4%B8%AD%E8%AF%81%E6%9C%89%E8%89%B2&amp;zhida_source=entity">中证有色</a>，<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=268791354&amp;content_type=Article&amp;match_order=1&amp;q=%E5%9B%BD%E8%AF%81%E6%9C%89%E8%89%B2&amp;zhida_source=entity">国证有色</a>这些行业指数。</p>
-<p>如果分红多的话（大概率），还能进红利指数。</p>
-<p>如果esg做的好的话（中概率），还能进esg指数。</p>
-<p>指数一进，后面呼啦啦的各种基金，各种基民就嗷嗷的往里冲进来了，流动性就会好很多。</p>
-<p>毕竟新发的股票都是锁定的，减去原来大股东持股，实际流通市值也就两百多亿。</p>
-<p>突然说要被动配置一百多亿的基金，属于天降接盘侠，对股价肯定是有冲击的。</p>
-<p>以上好的说完了，但是也浇一盆凉水。</p>
-<p>铝王这个重组属于<strong>明牌</strong>，下周一如果有高开，务必谨慎，可以采访下昨天打板中石化散户的感受。</p>
-<p>我都念叨了好几天了，不是什么大新闻。</p>
-<p>现在买也只能是买它的成长，价值发现，看好它的预期，如果是为了投机，我劝你一定想好。</p>
-<hr />
-<p>一个喜欢保护韭菜的博主，希望大家少少踩坑，多多赚钱！</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://leemgang.github.io/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%BA%8C%E3%80%8B%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E4%B8%89%E5%A4%A7%E8%AF%AF%E5%8C%BA/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="LeeMgang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="每天进步一点点">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | 每天进步一点点">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2026/01/28/%E3%80%8A%E5%9C%B0%E9%98%B6%E5%8A%9F%E6%B3%95%E5%8D%B7%E4%BA%8C%E3%80%8B%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E4%B8%89%E5%A4%A7%E8%AF%AF%E5%8C%BA/" class="post-title-link" itemprop="url">《地阶功法卷二》价值投资三大误区</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2026-01-28 00:00:00 / 修改时间：14:04:14" itemprop="dateCreated datePublished" datetime="2026-01-28T00:00:00+08:00">2026-01-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E7%9F%A5%E4%B9%8E%E6%94%B6%E8%97%8F/" itemprop="url" rel="index"><span itemprop="name">知乎收藏</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <blockquote>
-<p>本文来源于知乎，作者：<a
-target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/1964619498628817898">MR Dang​</a></p>
-<p>前置功法：</p>
-</blockquote>
-<p><a
-target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/81611338101">地阶功法卷一</a></p>
-<p>卷一我们主要讲心态。</p>
-<p>卷二我们开始讲方法论，首先最重要的是不要走弯路，特别是有三个<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84&amp;zhida_source=entity">价值投资</a>的误区，很多人这么多年了，兜兜转转还在里面转圈。</p>
-<p>特此提出，以示警醒。</p>
-<p><strong>其一，迷信<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E8%B4%A2%E6%8A%A5&amp;zhida_source=entity">财报</a></strong>。</p>
-<p>财报者，过去之数据也。</p>
-<p>财务为皮，经营为骨。</p>
-<p>财报是让你用来<strong>印证</strong>你对公司商业模式和经营情况的判断的。</p>
-<p>不是让你打开一堆财报，在里面找哪个数据更好的。</p>
-<p>你的思路如果是一堆财报放在面前，不去思考公司的商业模式，不去思考公司的经营风险，一头扎在各种会计科目，纠结各种会计处理，哪家公司又是<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E5%85%AC%E5%85%81%E4%BB%B7%E5%80%BC%E6%B3%95&amp;zhida_source=entity">公允价值法</a>，哪家公司又是<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E6%88%90%E6%9C%AC%E6%B3%95&amp;zhida_source=entity">成本法</a>，哪家公司计提了多少，各种费用又摊销了多少。</p>
-<p>那么我可以明确的告诉你，你连价值投资的边都没摸到。</p>
-<p>为什么？</p>
-<p><strong>财报本身是不可靠的。</strong></p>
-<p>不可靠有三方面：</p>
-<p>A.舞弊的存在。</p>
-<p>大众对审计最大的误解就是，认为一个合格的审计流程可以规避舞弊的风险。</p>
-<p>但是如果你去四大八大问一遍，他们的审计流程能不能应对串通舞弊导致的财务风险，我相信没有任何一个审计机构敢给你打包票。</p>
-<p>B.财务语言的失真</p>
-<p>投资者和财报编写者之间沟通的语言是什么？是<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99&amp;zhida_source=entity">会计准则</a>。</p>
-<p>但是会计准则是一套复杂的，随时更新的语言系统。</p>
-<p>这门语言复杂到，专业的财务人员对同一个财务活动会给出不同的职业判断。</p>
-<p>财务人员之间尚且水平参差不齐，何况财务人员和普通投资者之间？</p>
-<p>随时更新又是什么意思？</p>
-<p>随时会变更会计科目。</p>
-<p>比如最重要的收入确认的判断，最近十年来会计准则变了多少？</p>
-<p>一会儿段履行了，一会儿点履行了，一会儿又合同负债了。</p>
-<p>可能只是一张入库单的区别，财务报表上就是大变样。</p>
-<p>因为“控制权”这种东西本身就是模糊的，不是量化的，最后变成<strong>谁职位高，谁说了算</strong>。</p>
-<p>C.会计准则本身的扭曲</p>
-<p>不但不同的人对会计准则有不同的理解，会计准则它本身就是扭曲的。</p>
-<p>《<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E4%BC%81%E4%B8%9A%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99%E7%AC%AC22%E5%8F%B7&amp;zhida_source=entity">企业会计准则第22号</a>——<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=%E9%87%91%E8%9E%8D%E5%B7%A5%E5%85%B7%E7%A1%AE%E8%AE%A4%E5%92%8C%E8%AE%A1%E9%87%8F&amp;zhida_source=entity">金融工具确认和计量</a>》这是每年注会考试的重点。</p>
-<p>会计准则把金融工具分为“公变资”“交金””摊资“这么些大类，全名太长了，我懒得打，你们也不用深究。</p>
-<p>他们中有些价格变动入损益表”公允价损益“</p>
-<p>还有些变动入权益表”其他综合收益“</p>
-<p>问题是，入损益表的，这些是<strong>计入</strong>每股净资产和<strong>每股收益</strong>的。</p>
-<p>但是，进入权益表的，这是是<strong>不计入每股收益</strong>的，只计入每股净资产。</p>
-<p>而这些金融资产的划分是相当主观的。</p>
-<p>老有些老股民好奇，怎么每次出来的财务报表，数据对不上，净资产增加的数字和每股收益的增加值对不上，这就是答案，给你弄进其他综合收益了。</p>
-<p>以上就是告诉你，财报你得会看，但是会看不是代表你就能挑出好股来，最多也就是让你避坑，真要挑出好的，还得从商业模式开始往下扒拉。</p>
-<p><strong>其二,长期持有</strong></p>
-<p>这还是犯了没有看清价值投资内在逻辑的错误。</p>
-<p>什么是价值投资？价值10块的东西，市面上有人5块兜售，你觉得便宜，就买下了，等着到10块卖出去。</p>
-<p>因为没有人有把握这个5块的东西，马上能到10块，所以你做好了长期持有的准备。</p>
-<p>但是，万一第二天就有个人要给你8块钱买你的东西。</p>
-<p>你还想什么啊？你转手就赚了3块，还需要再等几年去等那个两块么？</p>
-<p>非要死死抱着你的东西，然后等个三五年十块钱卖出去，图啥呢？</p>
-<p>你拿着8块钱，去市场上再去找，大把的便宜的东西多的是。</p>
-<p>你已经把三块钱的价值发掘了，那就是价值投资。</p>
-<p>但是大多时候，你的运气并不好，所以还是要长时间的等，等你手里的东西创造价值，等别人发现你手里的东西在创造价值。</p>
-<p>长时间持有只是一种表象，内在是挖掘价值向市场展示价值的过程。</p>
-<p>如果反其道而行之，只是一味的抱着一个半死不活的企业，等着一个大怨种掏高价，那也不过是资本市场里的国宝帮而已。</p>
-<p><strong>其三，估值低就是价值投资。</strong></p>
-<p>PBX7dwI”&gt;其实这就话本身没什么太大的毛病。</p>
-<p>价值投资就是要买便宜的有价值的东西。</p>
-<p>问题出在对”估值低“这三个字的理解上了。</p>
-<p>甭管你是<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=PE&amp;zhida_source=entity">PE</a>,PB,<a
-target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=265428895&amp;content_type=Article&amp;match_order=1&amp;q=PEG%E4%BC%B0%E5%80%BC&amp;zhida_source=entity">PEG估值</a>，一定是对<strong>未来</strong>的财务数据进行估值。</p>
-<p>任何时候，你把选股器打开，把PE,PB一拉，那都不叫估值低，那叫懒。</p>
-<p>举个例子吧，很多地产股，PB很低，估值低不低。</p>
-<p>一点都不低。</p>
-<p>为啥，你看到的那个PB，已经是滞后的信息了。</p>
-<p>很有可能，站在财报日那天，存货都还没计提干净。</p>
-<p>你要知道地产股，负债是刚性的，资产是弹性的，资产一缩水，你这PB不直接炸了么？</p>
-<p>财报日到你做出决策的时候还有几个月，这几个月房地产还在下行，净资产还在减少。</p>
-<p>等你买进去，到你卖出来，还有一段日子，净资产依然在减少。</p>
-<p>你0.5PB冲进去，5PB逃出来，结果一看股价腰斩。</p>
-<p>就是这么残酷。</p>
-<p>——————————————分割线——————————————</p>
-<p>价值投资不是一个匡，不要啥都往里装。</p>
-<p>很多投资者只是道听途说几句相关的表述，就以为自己掌握了价值投资的不二法门。</p>
-<p>多年过去，收益没有起色，就开始埋怨价值投资不行。</p>
-<p>正所谓：</p>
-<p>价投之道，</p>
-<p>莫奉财报为金科，</p>
-<p>莫执长期为玉律，</p>
-<p>莫恃低估为圭臬，</p>
-<p>莫困价投为牢笼。</p>
-<p>投资如弈，</p>
-<p>谋势为先，谋子为后。</p>
-<p>贵极而沽，贱极而取。</p>
-<p>贵贱之别，在于察势。</p>
-<p>莫奉旧辙为恒常，</p>
-<p>旧岁之迹，并非今岁之径。</p>
-<p>望诸位道友慎之，思之，察之。</p>
-<p>切莫误入迷途！！！</p>
-<p>—————————————————————————————————————</p>
-<p>一个喜欢保护韭菜的博主，希望大家少踩坑，多赚钱！</p>
 
       
     </div>
