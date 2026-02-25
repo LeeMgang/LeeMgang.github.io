@@ -28,7 +28,7 @@
 <meta property="og:description" content="这是我的第一篇技术博客！本文主要记录我是如何管理这个博客的，以及常用的 Markdown 写作语法，作为备忘录。  第一部分：博客管理操作手册 这是我维护 Hexo 博客的标准流程（只维护 GitHub Pages 静态页面版）。 1. 新建文章 在博客根目录下打开终端，输入： 1hexo new &quot;这里写文章标题&quot; 系统会在 source&#x2F;_posts 目录下">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2026-01-27T06:00:00.000Z">
-<meta property="article:modified_time" content="2026-01-27T13:21:40.202Z">
+<meta property="article:modified_time" content="2026-02-25T14:40:49.218Z">
 <meta property="article:author" content="LeeMgang">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="Markdown">
@@ -58,6 +58,8 @@
 
   
 
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.10.1/mermaid.min.js","integrity":"sha256-BmQmdWDS8X2OTbrwELWK366LV6escyWhHHe0XCTU/Hk="}}</script>
+  <script src="/js/third-party/tags/mermaid.js" defer></script>
 
 
 
@@ -134,7 +136,11 @@
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
             <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%E5%8D%9A%E5%AE%A2%E7%AE%A1%E7%90%86%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C"><span class="nav-number">1.</span> <span class="nav-text">第一部分：博客管理操作手册</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E6%96%87%E7%AB%A0"><span class="nav-number">1.1.</span> <span class="nav-text">1. 新建文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%99%E4%BD%9C%E4%B8%8E%E4%BF%AE%E6%94%B9"><span class="nav-number">1.2.</span> <span class="nav-text">2. 写作与修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E6%96%87%E7%AB%A0"><span class="nav-number">1.3.</span> <span class="nav-text">3. 删除文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E5%85%B3%E9%94%AE%E6%AD%A5%E9%AA%A4"><span class="nav-number">1.4.</span> <span class="nav-text">4. 本地预览（关键步骤）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%91%E5%B8%83%E4%B8%8A%E7%BA%BF"><span class="nav-number">1.5.</span> <span class="nav-text">5. 发布上线</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86markdown-%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5"><span class="nav-number">2.</span> <span class="nav-text">第二部分：Markdown 语法速查</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%87%E9%A2%98"><span class="nav-number">2.1.</span> <span class="nav-text">1. 标题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98-%E9%80%9A%E5%B8%B8%E7%94%B1-hexo-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98"><span class="nav-number">3.</span> <span class="nav-text">一级标题 (通常由 Hexo
-自动生成文章标题)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98-%E5%B8%B8%E7%94%A8%E4%BD%9C%E5%A4%A7%E7%AB%A0%E8%8A%82"><span class="nav-number">3.1.</span> <span class="nav-text">二级标题 (常用作大章节)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98-%E5%B8%B8%E7%94%A8%E4%BD%9C%E5%B0%8F%E8%8A%82"><span class="nav-number">3.1.1.</span> <span class="nav-text">三级标题 (常用作小节)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E4%BD%93%E6%A0%B7%E5%BC%8F"><span class="nav-number">3.1.2.</span> <span class="nav-text">2. 字体样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E8%A1%A8"><span class="nav-number">3.1.3.</span> <span class="nav-text">3. 列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%95%E7%94%A8"><span class="nav-number">3.1.4.</span> <span class="nav-text">4. 引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8F%92%E5%85%A5%E9%93%BE%E6%8E%A5%E5%92%8C%E5%9B%BE%E7%89%87"><span class="nav-number">3.1.5.</span> <span class="nav-text">5. 插入链接和图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">3.1.6.</span> <span class="nav-text">6. 代码块</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AF%AD"><span class="nav-number">3.2.</span> <span class="nav-text">结语</span></a></li></ol></li></ol></div>
+自动生成文章标题)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98-%E5%B8%B8%E7%94%A8%E4%BD%9C%E5%A4%A7%E7%AB%A0%E8%8A%82"><span class="nav-number">3.1.</span> <span class="nav-text">二级标题 (常用作大章节)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98-%E5%B8%B8%E7%94%A8%E4%BD%9C%E5%B0%8F%E8%8A%82"><span class="nav-number">3.1.1.</span> <span class="nav-text">三级标题 (常用作小节)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E4%BD%93%E6%A0%B7%E5%BC%8F"><span class="nav-number">3.1.2.</span> <span class="nav-text">2. 字体样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%97%E8%A1%A8"><span class="nav-number">3.1.3.</span> <span class="nav-text">3. 列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%95%E7%94%A8"><span class="nav-number">3.1.4.</span> <span class="nav-text">4. 引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8F%92%E5%85%A5%E9%93%BE%E6%8E%A5%E5%92%8C%E5%9B%BE%E7%89%87"><span class="nav-number">3.1.5.</span> <span class="nav-text">5. 插入链接和图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">3.1.6.</span> <span class="nav-text">6. 代码块</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-mermaid-%E7%BB%98%E5%88%B6%E5%85%AC%E5%8F%B8%E8%82%A1%E6%9D%83%E7%BB%93%E6%9E%84%E5%9B%BE"><span class="nav-number">3.2.</span> <span class="nav-text">第三部分 如何使用
+Mermaid 绘制公司股权结构图</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%93%E6%9E%84%E5%9B%BE%E4%BB%A3%E7%A0%81%E6%A8%A1%E6%9D%BF"><span class="nav-number">3.2.1.</span> <span class="nav-text">1. 结构图代码模板</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AF%AD%E6%B3%95%E5%BF%AB%E9%80%9F%E6%8B%86%E8%A7%A3"><span class="nav-number">3.2.2.</span> <span class="nav-text">2. 语法快速拆解</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%81%BF%E5%9D%91%E6%8F%90%E7%A4%BA%E5%9C%A8%E4%BD%BF%E7%94%A8-mermaid-%E6%97%B6%E7%A1%AE%E4%BF%9D-mermaid-%E5%92%8C%E7%BB%93%E5%B0%BE%E7%9A%84-%E7%8B%AC%E5%8D%A0%E4%B8%80%E8%A1%8C%E4%B8%94%E4%B8%8A%E4%B8%8B%E4%BF%9D%E7%95%99%E7%A9%BA%E8%A1%8C%E5%90%A6%E5%88%99%E5%8F%AF%E8%83%BD%E4%BC%9A%E5%AF%BC%E8%87%B4%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E5%8F%98%E6%88%90%E4%B9%B1%E7%A0%81"><span class="nav-number">3.3.</span> <span class="nav-text">&gt;
+避坑提示：在使用 Mermaid 时，确保
+&#96;&#96;&#96;mermaid 和结尾的 &#96;&#96;&#96;
+独占一行，且上下保留空行，否则可能会导致解析失败变成乱码。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AF%AD"><span class="nav-number">3.4.</span> <span class="nav-text">结语</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -147,7 +153,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">42</span>
+          <span class="site-state-item-count">43</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -213,9 +219,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2026-01-27 14:00:00 / 修改时间：21:21:40" itemprop="dateCreated datePublished" datetime="2026-01-27T14:00:00+08:00">2026-01-27</time>
+      <time title="创建时间：2026-01-27 14:00:00" itemprop="dateCreated datePublished" datetime="2026-01-27T14:00:00+08:00">2026-01-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2026-02-25 22:40:49" itemprop="dateModified" datetime="2026-02-25T22:40:49+08:00">2026-02-25</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -302,7 +314,51 @@ Markdown 写作语法，作为备忘录。</p>
 <code>包裹。 例如：请执行</code>git status` 命令。</p>
 <p><strong>代码块</strong>：使用三个反引号包裹，并指定语言。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 这是一个 Python 代码示例</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">hello</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Hello, World!&quot;</span>)</span><br></pre></td></tr></table></figure>
-<hr />
+<h2 id="第三部分-如何使用-mermaid-绘制公司股权结构图">第三部分 如何使用
+Mermaid 绘制公司股权结构图</h2>
+<p>在进行 A
+股公司基本面分析时，一张清晰的股权结构图能帮我们快速理清公司的实际控制人与核心资产分布。通过
+Hexo 博客内置的 Mermaid 支持，我们可以直接用代码“画”出结构图。</p>
+<h3 id="结构图代码模板">1. 结构图代码模板</h3>
+<p>你可以直接复制以下代码到你的 Markdown
+文件中测试。这里以三大运营商的典型国资架构为例：</p>
+<pre class="mermaid">graph TD
+    %% 定义节点样式（可选，用于区分不同层级的公司）
+    classDef stateOwn fill:#f96,stroke:#333,stroke-width:2px;
+    classDef group fill:#eef,stroke:#333,stroke-width:1px;
+    classDef listed fill:#fff,stroke:#333,stroke-width:2px,color:#000;
+
+    %% 结构逻辑与持股比例
+    A[国务院国资委 - 实际控制人]:::stateOwn -- 100% --> B(电信集团有限公司 - 控股股东):::group
+    
+    B -- 62.82% --> C{中国电信 A+H股 - 核心上市公司}:::listed
+    D[公众股东及其他] -- 37.18% --> C
+    
+    C -- 100% --> E(天翼云科技有限公司)
+    C -- 100% --> F(各省市级分公司)</pre>
+<h3 id="语法快速拆解">2. 语法快速拆解</h3>
+<p>为了方便大家根据不同公司的年度财报进行修改，这里简单拆解一下核心语法：</p>
+<ul>
+<li><strong>绘制方向</strong>：<code>graph TD</code> 表示自上而下 (Top
+to Down) 绘制。如果层级不多但平级公司多，可以改为 <code>graph LR</code>
+(从左到右)。</li>
+<li><strong>节点形状</strong>：
+<ul>
+<li><code>[文字]</code>：矩形，通常代表最终实控人（如国资委、自然人）或公众股东。</li>
+<li><code>(文字)</code>：圆角矩形，适合代表集团母公司或下属子公司。</li>
+<li><code>{文字}</code>：菱形，我习惯用来高亮我们要分析的核心上市公司主体。</li>
+</ul></li>
+<li><strong>连接线与持股比例</strong>：<code>-- 百分比 --&gt;</code>
+用于连接上下级节点，并在箭头上直观地标注持股比例。</li>
+<li><strong>高亮样式</strong>：通过 <code>classDef</code>
+定义颜色和边框，再通过
+<code>:::样式名</code>（注意是三个冒号）附加到对应节点上，能让股权穿透图的视觉层级一目了然。</li>
+</ul>
+<h2
+id="避坑提示在使用-mermaid-时确保-mermaid-和结尾的-独占一行且上下保留空行否则可能会导致解析失败变成乱码">&gt;
+<strong>避坑提示</strong>：在使用 Mermaid 时，确保
+<code>```mermaid</code> 和结尾的 <code>```</code>
+独占一行，且上下保留空行，否则可能会导致解析失败变成乱码。</h2>
 <h2 id="结语">结语</h2>
 <p>每天进步一点点，坚持写作，热爱生活！</p>
 
