@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"leemgang.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="在面对充满不确定性的现实世界时，大多数人习惯追求“绝对确定性”或依赖直觉。然而，真正顶级的决策者，往往将基本的概率论和组合数学内化为一种底层的思维模型——这就是查理·芒格在《穷查理宝典》中极力推崇的费马-帕斯卡系统。 这套系统不仅能用于人生重大选择，更能与企业基本面分析、贝叶斯定理和凯利公式结合，构建出一套机构级别的量化价值投资闭环。  一、 费马-帕斯卡系统与“期望效用” 这套系统运转">
+<meta property="og:type" content="article">
+<meta property="og:title" content="价值投资闭环评估指南">
+<meta property="og:url" content="https://leemgang.github.io/2026/03/17/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E9%97%AD%E7%8E%AF%E8%AF%84%E4%BC%B0%E6%8C%87%E5%8D%97/index.html">
+<meta property="og:site_name" content="每天进步一点点">
+<meta property="og:description" content="在面对充满不确定性的现实世界时，大多数人习惯追求“绝对确定性”或依赖直觉。然而，真正顶级的决策者，往往将基本的概率论和组合数学内化为一种底层的思维模型——这就是查理·芒格在《穷查理宝典》中极力推崇的费马-帕斯卡系统。 这套系统不仅能用于人生重大选择，更能与企业基本面分析、贝叶斯定理和凯利公式结合，构建出一套机构级别的量化价值投资闭环。  一、 费马-帕斯卡系统与“期望效用” 这套系统运转">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-03-17T11:41:47.000Z">
+<meta property="article:modified_time" content="2026-03-17T12:24:15.553Z">
+<meta property="article:author" content="LeeMgang">
+<meta property="article:tag" content="价值投资">
+<meta property="article:tag" content="投资逻辑">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://leemgang.github.io/2026/03/17/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E9%97%AD%E7%8E%AF%E8%AF%84%E4%BC%B0%E6%8C%87%E5%8D%97/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://leemgang.github.io/2026/03/17/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E9%97%AD%E7%8E%AF%E8%AF%84%E4%BC%B0%E6%8C%87%E5%8D%97/","path":"2026/03/17/价值投资闭环评估指南/","title":"价值投资闭环评估指南"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>价值投资闭环评估指南 | 每天进步一点点</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.10.1/mermaid.min.js","integrity":"sha256-BmQmdWDS8X2OTbrwELWK366LV6escyWhHHe0XCTU/Hk="}}</script>
+  <script src="/js/third-party/tags/mermaid.js" defer></script>
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js" defer></script>
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">每天进步一点点</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">坚持写作，热爱生活</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80-%E8%B4%B9%E9%A9%AC-%E5%B8%95%E6%96%AF%E5%8D%A1%E7%B3%BB%E7%BB%9F%E4%B8%8E%E6%9C%9F%E6%9C%9B%E6%95%88%E7%94%A8"><span class="nav-number">1.</span> <span class="nav-text">一、
+费马-帕斯卡系统与“期望效用”</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A1%88%E4%BE%8B%E6%8E%A8%E6%BC%94%E5%8E%BB%E7%95%99%E5%86%B3%E7%AD%96%E7%9A%84%E9%87%8F%E5%8C%96"><span class="nav-number">1.1.</span> <span class="nav-text">案例推演：去留决策的量化</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C-%E6%9E%84%E5%BB%BA%E9%87%8F%E5%8C%96%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E9%97%AD%E7%8E%AF"><span class="nav-number">2.</span> <span class="nav-text">二、 构建量化价值投资闭环</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5dcf-%E8%B4%B9%E9%A9%AC-%E5%B8%95%E6%96%AF%E5%8D%A1-%E6%9C%9F%E6%9C%9B%E5%86%85%E5%9C%A8%E4%BB%B7%E5%80%BC-eiv"><span class="nav-number">2.1.</span> <span class="nav-text">第一步：DCF +
+费马-帕斯卡 &#x3D; 期望内在价值 (EIV)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%E5%87%AF%E5%88%A9%E5%85%AC%E5%BC%8F-%E4%BB%93%E4%BD%8D%E7%AE%A1%E7%90%86"><span class="nav-number">2.2.</span> <span class="nav-text">第二步：凯利公式 &#x3D; 仓位管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%AE%9A%E7%90%86-%E5%8A%A8%E6%80%81%E6%9B%B4%E6%96%B0%E7%B3%BB%E7%BB%9F"><span class="nav-number">2.3.</span> <span class="nav-text">第三步：贝叶斯定理 &#x3D;
+动态更新系统</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8A%95%E8%B5%84%E9%97%AD%E7%8E%AF%E5%AE%9E%E6%88%98%E6%B2%99%E7%9B%98"><span class="nav-number">2.4.</span> <span class="nav-text">投资闭环实战沙盘</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89-%E6%A6%82%E7%8E%87%E7%9A%84%E5%AE%A2%E8%A7%82%E5%8C%96%E9%94%9A%E5%AE%9A"><span class="nav-number">3.</span> <span class="nav-text">三、 概率的客观化锚定</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">LeeMgang</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">44</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://leemgang.github.io/2026/03/17/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84%E9%97%AD%E7%8E%AF%E8%AF%84%E4%BC%B0%E6%8C%87%E5%8D%97/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="LeeMgang">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每天进步一点点">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="价值投资闭环评估指南 | 每天进步一点点">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          价值投资闭环评估指南
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-03-17 19:41:47 / 修改时间：20:24:15" itemprop="dateCreated datePublished" datetime="2026-03-17T19:41:47+08:00">2026-03-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">投资学习笔记</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>在面对充满不确定性的现实世界时，大多数人习惯追求“绝对确定性”或依赖直觉。然而，真正顶级的决策者，往往将基本的概率论和组合数学内化为一种底层的思维模型——这就是查理·芒格在《穷查理宝典》中极力推崇的<strong>费马-帕斯卡系统</strong>。</p>
+<p>这套系统不仅能用于人生重大选择，更能与企业基本面分析、贝叶斯定理和凯利公式结合，构建出一套机构级别的量化价值投资闭环。</p>
+<hr />
+<h2 id="一-费马-帕斯卡系统与期望效用">一、
+费马-帕斯卡系统与“期望效用”</h2>
+<p>这套系统运转的核心是“期望值”（Expected Value）的计算：</p>
+<p><span
+class="math display"><em>E</em><em>V</em> = <em>Σ</em>(<em>P</em><sub><em>i</em></sub> * <em>V</em><sub><em>i</em></sub>)</span></p>
+<p>其中，<span
+class="math inline"><em>P</em><sub><em>i</em></sub></span>
+代表某种结果发生的概率，<span
+class="math inline"><em>V</em><sub><em>i</em></sub></span>
+代表这种结果带来的具体收益或损失。</p>
+<p>在现实生活中，纯粹的金钱收益并不能完全代表价值。因此，我们需要将
+<span class="math inline"><em>V</em><sub><em>i</em></sub></span>
+转化为<strong>效用分数（Utility
+Score）</strong>。同样的客观结果，对不同人的主观影响是完全不同的（例如高薪但无个人时间，对不同人的效用截然不同）。</p>
+<h3 id="案例推演去留决策的量化">案例推演：去留决策的量化</h3>
+<p>假设面临合同到期，在“留下”与“离开”之间抉择。我们设定个人的效用权重为
+<strong>5:3:2（物质回报 M : 时间自由 T : 成就感 A）</strong>。</p>
+<p>专属效用公式为： <span
+class="math display"><em>U</em> = 0.5 * <em>M</em> + 0.3 * <em>T</em> + 0.2 * <em>A</em></span></p>
+<p><strong>选项 A：留在原单位（三种情景）</strong> * <strong>A1 平稳维持
+(概率 70%)：</strong> M=6, T=8, A=4</p>
+<p>效用：<span
+class="math inline"><em>U</em><sub><em>A</em>1</sub> = 0.5 * 6 + 0.3 * 8 + 0.2 * 4 = 6.2</span>
+* <strong>A2 正向突破 (概率 10%)：</strong> M=8, T=5, A=8</p>
+<p>效用：<span
+class="math inline"><em>U</em><sub><em>A</em>2</sub> = 7.1</span> *
+<strong>A3 温水煮青蛙 (概率 20%)：</strong> M=4, T=8, A=2</p>
+<p>效用：<span
+class="math inline"><em>U</em><sub><em>A</em>3</sub> = 4.8</span></p>
+<p><strong>A 的总期望效用 (<span
+class="math inline"><em>E</em><em>U</em><sub><em>A</em></sub></span>)：</strong></p>
+<p><span
+class="math inline"><em>E</em><em>U</em><sub><em>A</em></sub> = (0.70 * 6.2) + (0.10 * 7.1) + (0.20 * 4.8) = 6.01</span></p>
+<p><strong>选项 B：离开寻找新机遇（三种情景）</strong> * <strong>B1
+成功跃升 (概率 30%)：</strong> M=9, T=3, A=9</p>
+<p>效用：<span
+class="math inline"><em>U</em><sub><em>B</em>1</sub> = 7.2</span> *
+<strong>B2 平滑过渡 (概率 40%)：</strong> M=6.5, T=5, A=5</p>
+<p>效用：<span
+class="math inline"><em>U</em><sub><em>B</em>2</sub> = 5.75</span> *
+<strong>B3 负向跌落 (概率 30%)：</strong> M=1, T=9, A=1</p>
+<p>效用：<span
+class="math inline"><em>U</em><sub><em>B</em>3</sub> = 3.4</span></p>
+<p><strong>B 的总期望效用 (EU_B)：</strong></p>
+<p><span
+class="math inline"><em>E</em><em>U</em><sub><em>B</em></sub> = (0.30 * 7.2) + (0.40 * 5.75) + (0.30 * 3.4) = 5.48</span></p>
+<blockquote>
+<p><strong>结论：</strong> 尽管 B1
+提供了最高单项效用（7.2分），但综合概率与个人权重后，<span
+class="math inline"><em>E</em><em>U</em><sub><em>A</em></sub></span>
+(6.01) &gt; <span
+class="math inline"><em>E</em><em>U</em><sub><em>B</em></sub></span>
+(5.48)。理性计算击破了大脑“只盯最好结果”的幻觉。</p>
+</blockquote>
+<hr />
+<h2 id="二-构建量化价值投资闭环">二、 构建量化价值投资闭环</h2>
+<p>传统的自由现金流折现（DCF）模型存在“精确的错误”，微调折现率估值便天差地别。将基本面分析与概率系统融合，可以形成严密的交易闭环。</p>
+<h3 id="第一步dcf-费马-帕斯卡-期望内在价值-eiv">第一步：DCF +
+费马-帕斯卡 = 期望内在价值 (EIV)</h3>
+<p>放弃单一目标价，设定三种平行情景： * <strong>乐观情景 (V1)：</strong>
+赋予基础概率 P1 * <strong>基准情景 (V2)：</strong> 赋予基础概率 P2 *
+<strong>悲观情景 (V3)：</strong> 赋予基础概率 P3</p>
+<p><span
+class="math display"><em>E</em><em>I</em><em>V</em> = (<em>P</em>1 * <em>V</em>1) + (<em>P</em>2 * <em>V</em>2) + (<em>P</em>3 * <em>V</em>3)</span></p>
+<p><em>决策：只有当当前股价大幅低于 EIV 时，才具备安全边际。</em></p>
+<h3 id="第二步凯利公式-仓位管理">第二步：凯利公式 = 仓位管理</h3>
+<p>确定了赔率，用凯利公式（Kelly
+Criterion）决定下注比例，以在复利最大化与破产风险之间寻找平衡：</p>
+<p><span class="math display">$$f* = p - (\frac{q} {b})$$</span></p>
+<ul>
+<li>f*：建议仓位比例</li>
+<li>p：胜率（乐观 + 基准概率）</li>
+<li>q：败率（悲观概率）</li>
+<li>b：盈亏比（(EIV - 股价) / (股价 - 悲观价值)）</li>
+</ul>
+<p><em>注意：真实投资中为主观认知留足余地，通常采用“半凯利”（Half-Kelly）策略。</em></p>
+<h3 id="第三步贝叶斯定理-动态更新系统">第三步：贝叶斯定理 =
+动态更新系统</h3>
+<p>当新信息（如财报发布、突发事件）出现时，利用贝叶斯公式动态更新三种情景的概率：</p>
+<p><span
+class="math display"><em>P</em>(<em>A</em>|<em>B</em>) = [<em>P</em>(<em>B</em>|<em>A</em>) * <em>P</em>(<em>A</em>)]/<em>P</em>(<em>B</em>)</span></p>
+<ul>
+<li>P(A)：原定概率</li>
+<li>P(B|A)：在某情景下，出现该新信息的似然度</li>
+<li>P(A|B)：更新后的后验概率</li>
+<li>P(B)：事件B发生的概率，采用全概率公式计算</li>
+</ul>
+<p><span class="math display">$$P(B) = \sum_{i=1}^{n} (P(A_i) \times
+P(B|A_i))$$</span></p>
+<p>展开后的形式为： <span
+class="math display"><em>P</em>(<em>B</em>) = <em>P</em>(<em>A</em><sub>1</sub>) × <em>P</em>(<em>B</em>|<em>A</em><sub>1</sub>) + <em>P</em>(<em>A</em><sub>2</sub>) × <em>P</em>(<em>B</em>|<em>A</em><sub>2</sub>) + <em>P</em>(<em>A</em><sub>3</sub>) × <em>P</em>(<em>B</em>|<em>A</em><sub>3</sub>)</span></p>
+<h3 id="投资闭环实战沙盘">投资闭环实战沙盘</h3>
+<p><strong>标的：Alpha 消费品（现价 40元）</strong></p>
+<ol type="1">
+<li><strong>初次评估 (算出 EIV 与建仓)：</strong>
+<ul>
+<li>乐观 (V1=80元, P1=20%)</li>
+<li>基准 (V2=60元, P2=50%)</li>
+<li>悲观 (V3=30元, P3=30%)</li>
+<li><strong>EIV = 55元</strong>。存在 27% 安全边际。</li>
+<li>代入凯利公式得出 f* = 0.5（满凯利 50%）。执行半凯利，<strong>建仓
+25%</strong>。</li>
+</ul></li>
+<li><strong>新变量出现 (贝叶斯更新)：</strong>
+<ul>
+<li>突发季报：毛利率意外下降 3%。股价跌至 38元。</li>
+<li>评估似然度：乐观情景下发生概率 10%，基准
+40%，悲观（陷入价格战）80%。</li>
+<li>计算后验概率：乐观骤降至 4.3%，基准 43.5%，<strong>悲观剧增至
+52.2%</strong>。</li>
+</ul></li>
+<li><strong>闭环重估 (发出指令)：</strong>
+<ul>
+<li>用新概率重新计算 EIV：跌至 <strong>45.2元</strong>。</li>
+<li>重新代入凯利公式：算得新 f* = -0.102。</li>
+<li><strong>执行动作：</strong> 负数凯利值为强制指令，清仓卖出。</li>
+</ul></li>
+</ol>
+<hr />
+<h2 id="三-概率的客观化锚定">三、 概率的客观化锚定</h2>
+<p>“输入的是垃圾，输出的也是垃圾”。如果概率全是拍脑袋决定的，整个系统就会失效。必须建立客观锚定机制给概率“挤水分”：</p>
+<ol type="1">
+<li><strong>寻找“基础概率”（Base Rates）：</strong>
+放弃“内部视角”，查阅同类事件在历史上的大样本统计胜率。如果没有硬核证据，你的成功率只能等于行业平均倒闭率。</li>
+<li><strong>费米拆解法（Decomposition）：</strong>
+将大黑盒拆成子事件。如果销量翻倍需要“产能跟上(80%) * 研发顺利(80%) *
+宏观向好(80%)”，整体概率只有 51.2%。</li>
+<li><strong>向市场借“隐含概率”：</strong>
+观察债券市场的息差或期权市场的隐含波动率（IV）。真金白银交易出来的价格，往往蕴含着极度客观的悲观/乐观预期。</li>
+<li><strong>设立“证伪清单”（Falsification Checklist）：</strong>
+买入前写下“如果发生即宣告逻辑破产”的 3-5
+个客观财务指标。一旦触发，系统强制将悲观概率调高至 80%
+以上，斩断主观留恋。</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%8A%95%E8%B5%84%E9%80%BB%E8%BE%91/" rel="tag"># 投资逻辑</a>
+              <a href="/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/" rel="tag"># 价值投资</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2026/02/16/%E4%B8%AD%E5%9B%BD%E7%94%B5%E4%BF%A1%EF%BC%88601728%EF%BC%89%E4%B8%AA%E4%BA%BA%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/" rel="prev" title="中国电信（601728）个人分析报告">
+                  <i class="fa fa-angle-left"></i> 中国电信（601728）个人分析报告
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">LeeMgang</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
